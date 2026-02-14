@@ -1,0 +1,6 @@
+.rag/chunks.json
+.rag/index.usearch
+.rag/query.py
+.rag/query.sh
+.rag/README.md
+.rag/vectors.npz
