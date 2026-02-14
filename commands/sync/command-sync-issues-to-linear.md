@@ -1,0 +1,116 @@
+---
+id: command-sync-issues-to-linear
+type: command
+name: Sync Issues to Linear
+description: '---
+
+  allowed-tools: Read, Write, Edit, Bash
+
+  argument-hint: [sync-scope] | --state | --label | --assignee | --milestone
+
+  description: Sync GitHub issues to Linear workspace with comprehensive field mappi...'
+category: sync
+complexity: medium
+keywords:
+- api
+- audit
+- github
+capabilities: []
+token_estimate: 349
+---
+
+<!-- Converted from Claude Command Template -->
+<!-- Complexity: Medium -->
+<!-- Estimated Tokens: ~349 -->
+
+
+> **How to Use This Template**
+>
+> This template can be used with various AI coding assistants:
+> 
+> **GitHub Copilot:**
+> - Add to `.github/copilot-instructions.md` in your repository
+> - Reference in chat: `@workspace` to include in context
+> - Add specific sections to your workspace instructions
+> 
+> **Augment Code:**
+> - Load context: `aug context add <path-to-this-file>`
+> - Reference in queries naturally
+> - Use with specific commands
+> 
+> **Claude (Desktop/Web):**
+> - Add to Project Knowledge in Claude Projects
+> - Reference in custom instructions
+> - Copy relevant sections as needed
+> 
+> **ChatGPT:**
+> - Add to Custom GPT configuration
+> - Include in conversation instructions
+> - Use as system prompt
+> 
+> **Generic Usage:**
+> Copy the content below and paste it into your AI assistant's context window
+> or system instructions.
+
+---
+
+
+
+
+# Sync Issues to Linear
+
+> ---
+allowed-tools: Read, Write, Edit, Bash
+argument-hint: [sync-scope] | --state | --label | --assignee | --milestone
+description: Sync GitHub issues to Linear workspace with comprehensive field mappi...
+
+---
+allowed-capabilities: File operations, code editing, terminal access, search
+argument-hint: [sync-scope] | --state | --label | --assignee | --milestone
+description: Sync GitHub issues to Linear workspace with comprehensive field mapping and rate limit management
+---
+
+# Sync Issues to Linear
+
+Sync GitHub issues to Linear workspace with intelligent field mapping: **$ARGUMENTS**
+
+## Current Repository Context
+
+- Repository: !`gh repo view --json nameWithOwner -q .nameWithOwner 2>/dev/null || echo "No repo context"`
+- Issue count: !`gh issue list --state all --limit 1 --json number | jq length 2>/dev/null || echo "Check manually"`
+- Linear teams: Available Linear teams and project assignments
+- Rate limits: !`gh api rate_limit -q '.rate | "GitHub: \(.remaining)/\(.limit)"' 2>/dev/null`
+
+## Task
+
+Execute comprehensive synchronization of GitHub issues to Linear workspace:
+
+**Sync Scope**: Use $ARGUMENTS to filter by issue state, labels, assignees, milestones, or specific issue sets
+
+**Synchronization Framework**:
+1. **Issue Discovery** - Fetch GitHub issues with comprehensive metadata, apply filters, validate requirements
+2. **Field Mapping** - Transform GitHub fields to Linear format, map priorities, convert labels, handle assignees
+3. **Data Validation** - Check required fields, validate user mappings, ensure data integrity, prevent duplicates
+4. **Linear Integration** - Create tasks with proper formatting, apply team assignments, set projects, manage relationships
+5. **Rate Limit Management** - Implement exponential backoff, batch operations, monitor API limits, optimize requests
+6. **Progress Tracking** - Provide real-time updates, handle errors gracefully, maintain sync state, generate reports
+
+**Advanced Features**: Smart priority inference, intelligent user mapping, incremental sync capabilities, comprehensive error recovery.
+
+**Data Integrity**: Preserve formatting, maintain metadata, create bidirectional references, ensure audit trails.
+
+**Output**: Complete synchronization results with success metrics, error reports, mapping summaries, and comprehensive sync analytics.
+
+---
+
+## 🚀 Usage
+
+**Reference this template:** `@command-sync-issues-to-linear.md`
+
+
+**Platform-specific:**
+- **GitHub Copilot**: Add to `.github/copilot-instructions.md`
+- **Augment Code**: Use `aug context add` command
+- **Cursor/Windsurf**: Reference in chat with `@filename`
+- **Claude**: Add to Project Knowledge
+- **ChatGPT**: Add to Custom GPT configuration
