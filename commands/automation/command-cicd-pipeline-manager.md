@@ -30,8 +30,8 @@ capabilities: []
 token_estimate: 1253
 has_scripts: true
 languages:
-- bash
 - yaml
+- bash
 ---
 
 <!-- Converted from Claude Command Template -->

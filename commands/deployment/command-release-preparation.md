@@ -30,8 +30,8 @@ capabilities: []
 token_estimate: 1647
 has_scripts: true
 languages:
-- bash
 - yaml
+- bash
 - markdown
 ---
 

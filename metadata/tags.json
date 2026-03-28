@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-13T23:33:54.439691",
+  "timestamp": "2026-03-16T18:26:27.029819",
   "total_tags": 39,
   "tags": {
     "angular": [
@@ -98,6 +98,12 @@
         "name": "astropy",
         "type": "skill",
         "path": "skills/scientific/skill-astropy.md"
+      },
+      {
+        "id": "agent-codebase-explorer",
+        "name": "codebase-explorer",
+        "type": "agent",
+        "path": "agents/development-tools/agent-codebase-explorer.md"
       },
       {
         "id": "agent-command-expert",
@@ -288,6 +294,12 @@
         "path": "commands/utilities/command-architecture-scenario-explorer.md"
       },
       {
+        "id": "command-audit-external-sharing",
+        "name": "Audit External Sharing",
+        "type": "command",
+        "path": "commands/google-workspace/command-audit-external-sharing.md"
+      },
+      {
         "id": "command-automated-api-documentation-generator",
         "name": "Automated API Documentation Generator",
         "type": "command",
@@ -300,6 +312,30 @@
         "path": "commands/deployment/command-automated-release-system.md"
       },
       {
+        "id": "command-backup-sheet-as-csv",
+        "name": "Backup Sheet As Csv",
+        "type": "command",
+        "path": "commands/google-workspace/command-backup-sheet-as-csv.md"
+      },
+      {
+        "id": "command-batch-invite-to-event",
+        "name": "Batch Invite To Event",
+        "type": "command",
+        "path": "commands/google-workspace/command-batch-invite-to-event.md"
+      },
+      {
+        "id": "command-batch-rename-files",
+        "name": "Batch Rename Files",
+        "type": "command",
+        "path": "commands/google-workspace/command-batch-rename-files.md"
+      },
+      {
+        "id": "command-batch-reply-to-emails",
+        "name": "Batch Reply To Emails",
+        "type": "command",
+        "path": "commands/google-workspace/command-batch-reply-to-emails.md"
+      },
+      {
         "id": "agent-bettoredge-value-finder",
         "name": "BettorEdge Value Finder",
         "type": "agent",
@@ -310,6 +346,12 @@
         "name": "Bidirectional Sync",
         "type": "command",
         "path": "commands/sync/command-bidirectional-sync.md"
+      },
+      {
+        "id": "command-block-focus-time",
+        "name": "Block Focus Time",
+        "type": "command",
+        "path": "commands/google-workspace/command-block-focus-time.md"
       },
       {
         "id": "command-blue-green-deployment-strategy",
@@ -330,6 +372,12 @@
         "path": "commands/nextjs-vercel/command-build-optimization-commands.md"
       },
       {
+        "id": "command-bulk-download-folder",
+        "name": "Bulk Download Folder",
+        "type": "command",
+        "path": "commands/google-workspace/command-bulk-download-folder.md"
+      },
+      {
         "id": "command-bulk-import-issues",
         "name": "Bulk Import Issues",
         "type": "command",
@@ -346,6 +394,12 @@
         "name": "CSharpExpert",
         "type": "agent",
         "path": "agents/programming-languages/agent-csharpexpert.md"
+      },
+      {
+        "id": "command-cancel-and-notify",
+        "name": "Cancel And Notify",
+        "type": "command",
+        "path": "commands/google-workspace/command-cancel-and-notify.md"
       },
       {
         "id": "skill-cloud-penetration-testing",
@@ -366,10 +420,28 @@
         "path": "commands/utilities/command-code-quality-review.md"
       },
       {
+        "id": "command-collect-form-responses",
+        "name": "Collect Form Responses",
+        "type": "command",
+        "path": "commands/google-workspace/command-collect-form-responses.md"
+      },
+      {
         "id": "skill-command-development",
         "name": "Command Development",
         "type": "skill",
         "path": "skills/development/skill-command-development.md"
+      },
+      {
+        "id": "command-compare-sheet-tabs",
+        "name": "Compare Sheet Tabs",
+        "type": "command",
+        "path": "commands/google-workspace/command-compare-sheet-tabs.md"
+      },
+      {
+        "id": "command-content-creator-persona",
+        "name": "Content Creator Persona",
+        "type": "command",
+        "path": "commands/google-workspace/command-content-creator-persona.md"
       },
       {
         "id": "command-convert-code-analysis-to-linear-tasks",
@@ -378,10 +450,82 @@
         "path": "commands/utilities/command-convert-code-analysis-to-linear-tasks.md"
       },
       {
+        "id": "command-copy-sheet-for-new-month",
+        "name": "Copy Sheet For New Month",
+        "type": "command",
+        "path": "commands/google-workspace/command-copy-sheet-for-new-month.md"
+      },
+      {
+        "id": "command-create-classroom-course",
+        "name": "Create Classroom Course",
+        "type": "command",
+        "path": "commands/google-workspace/command-create-classroom-course.md"
+      },
+      {
+        "id": "command-create-doc-from-template",
+        "name": "Create Doc From Template",
+        "type": "command",
+        "path": "commands/google-workspace/command-create-doc-from-template.md"
+      },
+      {
+        "id": "command-create-events-from-sheet",
+        "name": "Create Events From Sheet",
+        "type": "command",
+        "path": "commands/google-workspace/command-create-events-from-sheet.md"
+      },
+      {
+        "id": "command-create-expense-tracker",
+        "name": "Create Expense Tracker",
+        "type": "command",
+        "path": "commands/google-workspace/command-create-expense-tracker.md"
+      },
+      {
         "id": "command-create-feature",
         "name": "Create Feature",
         "type": "command",
         "path": "commands/project-management/command-create-feature.md"
+      },
+      {
+        "id": "command-create-feedback-form",
+        "name": "Create Feedback Form",
+        "type": "command",
+        "path": "commands/google-workspace/command-create-feedback-form.md"
+      },
+      {
+        "id": "command-create-gmail-filter",
+        "name": "Create Gmail Filter",
+        "type": "command",
+        "path": "commands/google-workspace/command-create-gmail-filter.md"
+      },
+      {
+        "id": "command-create-meet-space",
+        "name": "Create Meet Space",
+        "type": "command",
+        "path": "commands/google-workspace/command-create-meet-space.md"
+      },
+      {
+        "id": "command-create-presentation",
+        "name": "Create Presentation",
+        "type": "command",
+        "path": "commands/google-workspace/command-create-presentation.md"
+      },
+      {
+        "id": "command-create-shared-drive",
+        "name": "Create Shared Drive",
+        "type": "command",
+        "path": "commands/google-workspace/command-create-shared-drive.md"
+      },
+      {
+        "id": "command-create-task-list",
+        "name": "Create Task List",
+        "type": "command",
+        "path": "commands/google-workspace/command-create-task-list.md"
+      },
+      {
+        "id": "command-create-vacation-responder",
+        "name": "Create Vacation Responder",
+        "type": "command",
+        "path": "commands/google-workspace/command-create-vacation-responder.md"
       },
       {
         "id": "command-create-app-directory-structure",
@@ -400,6 +544,12 @@
         "name": "Deep Analysis and Problem Solving Mode",
         "type": "command",
         "path": "commands/utilities/command-deep-analysis-and-problem-solving-mode.md"
+      },
+      {
+        "id": "command-deploy-apps-script",
+        "name": "Deploy Apps Script",
+        "type": "command",
+        "path": "commands/google-workspace/command-deploy-apps-script.md"
       },
       {
         "id": "command-deployment-monitoring-observability",
@@ -426,6 +576,12 @@
         "path": "commands/documentation/command-documentation-update-synchronization.md"
       },
       {
+        "id": "command-draft-email-from-doc",
+        "name": "Draft Email From Doc",
+        "type": "command",
+        "path": "commands/google-workspace/command-draft-email-from-doc.md"
+      },
+      {
         "id": "command-e2e-setup",
         "name": "E2E Setup",
         "type": "command",
@@ -436,6 +592,12 @@
         "name": "Email Composer",
         "type": "skill",
         "path": "skills/enterprise-communication/skill-email-composer.md"
+      },
+      {
+        "id": "command-email-drive-link",
+        "name": "Email Drive Link",
+        "type": "command",
+        "path": "commands/google-workspace/command-email-drive-link.md"
       },
       {
         "id": "command-emergency-hotfix-deployment",
@@ -462,6 +624,24 @@
         "path": "commands/orchestration/command-feature-development.md"
       },
       {
+        "id": "command-find-free-time",
+        "name": "Find Free Time",
+        "type": "command",
+        "path": "commands/google-workspace/command-find-free-time.md"
+      },
+      {
+        "id": "command-find-large-files",
+        "name": "Find Large Files",
+        "type": "command",
+        "path": "commands/google-workspace/command-find-large-files.md"
+      },
+      {
+        "id": "command-forward-labeled-emails",
+        "name": "Forward Labeled Emails",
+        "type": "command",
+        "path": "commands/google-workspace/command-forward-labeled-emails.md"
+      },
+      {
         "id": "command-get-request",
         "name": "GET request",
         "type": "command",
@@ -478,6 +658,12 @@
         "name": "Generate Linear Work Log",
         "type": "command",
         "path": "commands/utilities/command-generate-linear-work-log.md"
+      },
+      {
+        "id": "command-generate-report-from-sheet",
+        "name": "Generate Report From Sheet",
+        "type": "command",
+        "path": "commands/google-workspace/command-generate-report-from-sheet.md"
       },
       {
         "id": "command-generate-tests",
@@ -508,6 +694,288 @@
         "name": "Git Flow Status",
         "type": "command",
         "path": "commands/git/command-git-flow-status.md"
+      },
+      {
+        "id": "command-google-workspace-admin",
+        "name": "Google Workspace Admin",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-admin.md"
+      },
+      {
+        "id": "command-google-workspace-admin-reports",
+        "name": "Google Workspace Admin Reports",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-admin-reports.md"
+      },
+      {
+        "id": "command-google-workspace-alertcenter",
+        "name": "Google Workspace Alertcenter",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-alertcenter.md"
+      },
+      {
+        "id": "command-google-workspace-apps-script",
+        "name": "Google Workspace Apps Script",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-apps-script.md"
+      },
+      {
+        "id": "command-google-workspace-apps-script-push",
+        "name": "Google Workspace Apps Script Push",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-apps-script-push.md"
+      },
+      {
+        "id": "command-google-workspace-calendar",
+        "name": "Google Workspace Calendar",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-calendar.md"
+      },
+      {
+        "id": "command-google-workspace-calendar-agenda",
+        "name": "Google Workspace Calendar Agenda",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-calendar-agenda.md"
+      },
+      {
+        "id": "command-google-workspace-calendar-insert",
+        "name": "Google Workspace Calendar Insert",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-calendar-insert.md"
+      },
+      {
+        "id": "command-google-workspace-chat",
+        "name": "Google Workspace Chat",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-chat.md"
+      },
+      {
+        "id": "command-google-workspace-chat-send",
+        "name": "Google Workspace Chat Send",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-chat-send.md"
+      },
+      {
+        "id": "command-google-workspace-classroom",
+        "name": "Google Workspace Classroom",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-classroom.md"
+      },
+      {
+        "id": "command-google-workspace-cloudidentity",
+        "name": "Google Workspace Cloudidentity",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-cloudidentity.md"
+      },
+      {
+        "id": "command-google-workspace-docs",
+        "name": "Google Workspace Docs",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-docs.md"
+      },
+      {
+        "id": "command-google-workspace-docs-write",
+        "name": "Google Workspace Docs Write",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-docs-write.md"
+      },
+      {
+        "id": "command-google-workspace-drive",
+        "name": "Google Workspace Drive",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-drive.md"
+      },
+      {
+        "id": "command-google-workspace-drive-upload",
+        "name": "Google Workspace Drive Upload",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-drive-upload.md"
+      },
+      {
+        "id": "command-google-workspace-events",
+        "name": "Google Workspace Events",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-events.md"
+      },
+      {
+        "id": "command-google-workspace-events-renew",
+        "name": "Google Workspace Events Renew",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-events-renew.md"
+      },
+      {
+        "id": "command-google-workspace-events-subscribe",
+        "name": "Google Workspace Events Subscribe",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-events-subscribe.md"
+      },
+      {
+        "id": "command-google-workspace-forms",
+        "name": "Google Workspace Forms",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-forms.md"
+      },
+      {
+        "id": "command-google-workspace-gmail",
+        "name": "Google Workspace Gmail",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-gmail.md"
+      },
+      {
+        "id": "command-google-workspace-gmail-send",
+        "name": "Google Workspace Gmail Send",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-gmail-send.md"
+      },
+      {
+        "id": "command-google-workspace-gmail-triage",
+        "name": "Google Workspace Gmail Triage",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-gmail-triage.md"
+      },
+      {
+        "id": "command-google-workspace-gmail-watch",
+        "name": "Google Workspace Gmail Watch",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-gmail-watch.md"
+      },
+      {
+        "id": "command-google-workspace-groupssettings",
+        "name": "Google Workspace Groupssettings",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-groupssettings.md"
+      },
+      {
+        "id": "command-google-workspace-keep",
+        "name": "Google Workspace Keep",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-keep.md"
+      },
+      {
+        "id": "command-google-workspace-licensing",
+        "name": "Google Workspace Licensing",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-licensing.md"
+      },
+      {
+        "id": "command-google-workspace-meet",
+        "name": "Google Workspace Meet",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-meet.md"
+      },
+      {
+        "id": "command-google-workspace-modelarmor",
+        "name": "Google Workspace Modelarmor",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-modelarmor.md"
+      },
+      {
+        "id": "command-google-workspace-modelarmor-create-template",
+        "name": "Google Workspace Modelarmor Create Template",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-modelarmor-create-template.md"
+      },
+      {
+        "id": "command-google-workspace-modelarmor-sanitize-prompt",
+        "name": "Google Workspace Modelarmor Sanitize Prompt",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-modelarmor-sanitize-prompt.md"
+      },
+      {
+        "id": "command-google-workspace-modelarmor-sanitize-response",
+        "name": "Google Workspace Modelarmor Sanitize Response",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-modelarmor-sanitize-response.md"
+      },
+      {
+        "id": "command-google-workspace-people",
+        "name": "Google Workspace People",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-people.md"
+      },
+      {
+        "id": "command-google-workspace-reseller",
+        "name": "Google Workspace Reseller",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-reseller.md"
+      },
+      {
+        "id": "command-google-workspace-shared",
+        "name": "Google Workspace Shared",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-shared.md"
+      },
+      {
+        "id": "command-google-workspace-sheets",
+        "name": "Google Workspace Sheets",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-sheets.md"
+      },
+      {
+        "id": "command-google-workspace-sheets-append",
+        "name": "Google Workspace Sheets Append",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-sheets-append.md"
+      },
+      {
+        "id": "command-google-workspace-sheets-read",
+        "name": "Google Workspace Sheets Read",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-sheets-read.md"
+      },
+      {
+        "id": "command-google-workspace-slides",
+        "name": "Google Workspace Slides",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-slides.md"
+      },
+      {
+        "id": "command-google-workspace-tasks",
+        "name": "Google Workspace Tasks",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-tasks.md"
+      },
+      {
+        "id": "command-google-workspace-vault",
+        "name": "Google Workspace Vault",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-vault.md"
+      },
+      {
+        "id": "command-google-workspace-workflow",
+        "name": "Google Workspace Workflow",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-workflow.md"
+      },
+      {
+        "id": "command-google-workspace-workflow-email-to-task",
+        "name": "Google Workspace Workflow Email To Task",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-workflow-email-to-task.md"
+      },
+      {
+        "id": "command-google-workspace-workflow-file-announce",
+        "name": "Google Workspace Workflow File Announce",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-workflow-file-announce.md"
+      },
+      {
+        "id": "command-google-workspace-workflow-meeting-prep",
+        "name": "Google Workspace Workflow Meeting Prep",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-workflow-meeting-prep.md"
+      },
+      {
+        "id": "command-google-workspace-workflow-standup-report",
+        "name": "Google Workspace Workflow Standup Report",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-workflow-standup-report.md"
+      },
+      {
+        "id": "command-google-workspace-workflow-weekly-digest",
+        "name": "Google Workspace Workflow Weekly Digest",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-workflow-weekly-digest.md"
       },
       {
         "id": "skill-hook-development",
@@ -564,6 +1032,12 @@
         "path": "commands/documentation/command-interactive-documentation-platform.md"
       },
       {
+        "id": "command-label-and-archive-emails",
+        "name": "Label And Archive Emails",
+        "type": "command",
+        "path": "commands/google-workspace/command-label-and-archive-emails.md"
+      },
+      {
         "id": "command-linkedin-post-generator",
         "name": "LinkedIn Post Generator",
         "type": "command",
@@ -576,10 +1050,22 @@
         "path": "commands/nextjs-vercel/command-list-all-environment-variables-for-all-environments.md"
       },
       {
+        "id": "command-log-deal-update",
+        "name": "Log Deal Update",
+        "type": "command",
+        "path": "commands/google-workspace/command-log-deal-update.md"
+      },
+      {
         "id": "skill-mcp-integration",
         "name": "MCP Integration",
         "type": "skill",
         "path": "skills/development/skill-mcp-integration.md"
+      },
+      {
+        "id": "skill-manifest",
+        "name": "Manifest",
+        "type": "skill",
+        "path": "skills/development/skill-manifest.md"
       },
       {
         "id": "command-migration-assistant",
@@ -636,6 +1122,12 @@
         "path": "commands/orchestration/command-orchestration-resume-command.md"
       },
       {
+        "id": "command-organize-drive-folder",
+        "name": "Organize Drive Folder",
+        "type": "command",
+        "path": "commands/google-workspace/command-organize-drive-folder.md"
+      },
+      {
         "id": "command-penetration-test",
         "name": "Penetration Test",
         "type": "command",
@@ -648,6 +1140,12 @@
         "path": "commands/performance/command-performance-audit.md"
       },
       {
+        "id": "command-plan-weekly-schedule",
+        "name": "Plan Weekly Schedule",
+        "type": "command",
+        "path": "commands/google-workspace/command-plan-weekly-schedule.md"
+      },
+      {
         "id": "skill-plugin-settings",
         "name": "Plugin Settings",
         "type": "skill",
@@ -658,6 +1156,48 @@
         "name": "Plugin Structure",
         "type": "skill",
         "path": "skills/development/skill-plugin-structure.md"
+      },
+      {
+        "id": "skill-pocketbase-api-rules",
+        "name": "PocketBase API Rules",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-api-rules.md"
+      },
+      {
+        "id": "skill-pocketbase-collections",
+        "name": "PocketBase Collections",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-collections.md"
+      },
+      {
+        "id": "skill-pocketbase-deploy",
+        "name": "PocketBase Deploy",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-deploy.md"
+      },
+      {
+        "id": "skill-pocketbase-hooks",
+        "name": "PocketBase Hooks",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-hooks.md"
+      },
+      {
+        "id": "skill-pocketbase-migrations",
+        "name": "PocketBase Migrations",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-migrations.md"
+      },
+      {
+        "id": "skill-pocketbase-sdk",
+        "name": "PocketBase SDK",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-sdk.md"
+      },
+      {
+        "id": "command-post-mortem-setup",
+        "name": "Post Mortem Setup",
+        "type": "command",
+        "path": "commands/google-workspace/command-post-mortem-setup.md"
       },
       {
         "id": "agent-readme",
@@ -678,10 +1218,52 @@
         "path": "commands/deployment/command-release-preparation.md"
       },
       {
+        "id": "command-reschedule-meeting",
+        "name": "Reschedule Meeting",
+        "type": "command",
+        "path": "commands/google-workspace/command-reschedule-meeting.md"
+      },
+      {
+        "id": "command-review-meet-participants",
+        "name": "Review Meet Participants",
+        "type": "command",
+        "path": "commands/google-workspace/command-review-meet-participants.md"
+      },
+      {
+        "id": "command-review-overdue-tasks",
+        "name": "Review Overdue Tasks",
+        "type": "command",
+        "path": "commands/google-workspace/command-review-overdue-tasks.md"
+      },
+      {
         "id": "skill-seo-optimizer",
         "name": "SEO Optimizer",
         "type": "skill",
         "path": "skills/business-marketing/skill-seo-optimizer.md"
+      },
+      {
+        "id": "command-save-email-attachments",
+        "name": "Save Email Attachments",
+        "type": "command",
+        "path": "commands/google-workspace/command-save-email-attachments.md"
+      },
+      {
+        "id": "command-save-email-to-doc",
+        "name": "Save Email To Doc",
+        "type": "command",
+        "path": "commands/google-workspace/command-save-email-to-doc.md"
+      },
+      {
+        "id": "command-schedule-recurring-event",
+        "name": "Schedule Recurring Event",
+        "type": "command",
+        "path": "commands/google-workspace/command-schedule-recurring-event.md"
+      },
+      {
+        "id": "command-search-and-export-emails",
+        "name": "Search And Export Emails",
+        "type": "command",
+        "path": "commands/google-workspace/command-search-and-export-emails.md"
       },
       {
         "id": "command-secrets-scanner",
@@ -700,6 +1282,18 @@
         "name": "Security Scanning Tools",
         "type": "skill",
         "path": "skills/security/skill-security-scanning-tools.md"
+      },
+      {
+        "id": "command-send-personalized-emails",
+        "name": "Send Personalized Emails",
+        "type": "command",
+        "path": "commands/google-workspace/command-send-personalized-emails.md"
+      },
+      {
+        "id": "command-send-team-announcement",
+        "name": "Send Team Announcement",
+        "type": "command",
+        "path": "commands/google-workspace/command-send-team-announcement.md"
       },
       {
         "id": "command-setup-cdn-optimization",
@@ -724,6 +1318,24 @@
         "name": "Setup Rate Limiting",
         "type": "command",
         "path": "commands/setup/command-setup-rate-limiting.md"
+      },
+      {
+        "id": "command-share-doc-and-notify",
+        "name": "Share Doc And Notify",
+        "type": "command",
+        "path": "commands/google-workspace/command-share-doc-and-notify.md"
+      },
+      {
+        "id": "command-share-event-materials",
+        "name": "Share Event Materials",
+        "type": "command",
+        "path": "commands/google-workspace/command-share-event-materials.md"
+      },
+      {
+        "id": "command-share-folder-with-team",
+        "name": "Share Folder With Team",
+        "type": "command",
+        "path": "commands/google-workspace/command-share-folder-with-team.md"
       },
       {
         "id": "skill-shodan-reconnaissance-and-pentesting",
@@ -754,6 +1366,12 @@
         "name": "Supabase Security Audit",
         "type": "command",
         "path": "commands/database/command-supabase-security-audit.md"
+      },
+      {
+        "id": "command-sync-contacts-to-sheet",
+        "name": "Sync Contacts To Sheet",
+        "type": "command",
+        "path": "commands/google-workspace/command-sync-contacts-to-sheet.md"
       },
       {
         "id": "command-sync-health-monitor",
@@ -804,10 +1422,28 @@
         "path": "commands/orchestration/command-task-status-command.md"
       },
       {
+        "id": "skill-telegram-bot-builder",
+        "name": "Telegram Bot Builder",
+        "type": "skill",
+        "path": "skills/development/skill-telegram-bot-builder.md"
+      },
+      {
         "id": "skill-top-100-web-vulnerabilities-reference",
         "name": "Top 100 Web Vulnerabilities Reference",
         "type": "skill",
         "path": "skills/security/skill-top-100-web-vulnerabilities-reference.md"
+      },
+      {
+        "id": "command-transfer-file-ownership",
+        "name": "Transfer File Ownership",
+        "type": "command",
+        "path": "commands/google-workspace/command-transfer-file-ownership.md"
+      },
+      {
+        "id": "command-triage-security-alerts",
+        "name": "Triage Security Alerts",
+        "type": "command",
+        "path": "commands/google-workspace/command-triage-security-alerts.md"
       },
       {
         "id": "command-troubleshooting-guide-generator",
@@ -820,6 +1456,12 @@
         "name": "Ultimate-Transparent-Thinking-Beast-Mode",
         "type": "agent",
         "path": "agents/expert-advisors/agent-ultimate-transparent-thinking-beast-mode.md"
+      },
+      {
+        "id": "command-watch-drive-changes",
+        "name": "Watch Drive Changes",
+        "type": "command",
+        "path": "commands/google-workspace/command-watch-drive-changes.md"
       },
       {
         "id": "agent-winformsexpert",
@@ -876,6 +1518,12 @@
         "path": "agents/expert-advisors/agent-agent-installer.md"
       },
       {
+        "id": "skill-agent-management",
+        "name": "agent-management",
+        "type": "skill",
+        "path": "skills/ai-maestro/skill-agent-management.md"
+      },
+      {
         "id": "skill-agent-md-refactor",
         "name": "agent-md-refactor",
         "type": "skill",
@@ -892,6 +1540,12 @@
         "name": "agent-tool-builder",
         "type": "skill",
         "path": "skills/ai-research/skill-agent-tool-builder.md"
+      },
+      {
+        "id": "skill-agirails-agent-payments",
+        "name": "agirails-agent-payments",
+        "type": "skill",
+        "path": "skills/development/skill-agirails-agent-payments.md"
       },
       {
         "id": "skill-ai-agents-architect",
@@ -1140,6 +1794,18 @@
         "path": "skills/scientific/skill-brenda-database.md"
       },
       {
+        "id": "skill-bright-data-best-practices",
+        "name": "bright-data-best-practices",
+        "type": "skill",
+        "path": "skills/web-data/skill-bright-data-best-practices.md"
+      },
+      {
+        "id": "skill-bright-data-mcp",
+        "name": "bright-data-mcp",
+        "type": "skill",
+        "path": "skills/web-data/skill-bright-data-mcp.md"
+      },
+      {
         "id": "skill-browser-extension-builder",
         "name": "browser-extension-builder",
         "type": "skill",
@@ -1176,6 +1842,12 @@
         "path": "skills/scientific/skill-cellxgene-census.md"
       },
       {
+        "id": "skill-cf-crawl",
+        "name": "cf-crawl",
+        "type": "skill",
+        "path": "skills/utilities/skill-cf-crawl.md"
+      },
+      {
         "id": "agent-chaos-engineer",
         "name": "chaos-engineer",
         "type": "agent",
@@ -1198,6 +1870,12 @@
         "name": "cirq",
         "type": "skill",
         "path": "skills/scientific/skill-cirq.md"
+      },
+      {
+        "id": "skill-claude-api",
+        "name": "claude-api",
+        "type": "skill",
+        "path": "skills/development/skill-claude-api.md"
       },
       {
         "id": "skill-claude-opus-4-5-migration",
@@ -1278,6 +1956,12 @@
         "path": "agents/development-tools/agent-code-reviewer.md"
       },
       {
+        "id": "agent-codebase-explorer",
+        "name": "codebase-explorer",
+        "type": "agent",
+        "path": "agents/development-tools/agent-codebase-explorer.md"
+      },
+      {
         "id": "agent-codebase-pattern-finder",
         "name": "codebase-pattern-finder",
         "type": "agent",
@@ -1306,6 +1990,18 @@
         "name": "commit",
         "type": "skill",
         "path": "skills/sentry/skill-commit.md"
+      },
+      {
+        "id": "agent-commit-guardian",
+        "name": "commit-guardian",
+        "type": "agent",
+        "path": "agents/git/agent-commit-guardian.md"
+      },
+      {
+        "id": "skill-commit-smart",
+        "name": "commit-smart",
+        "type": "skill",
+        "path": "skills/git/skill-commit-smart.md"
       },
       {
         "id": "skill-competitor-alternatives",
@@ -1398,6 +2094,12 @@
         "path": "agents/deep-research-team/agent-data-analyst.md"
       },
       {
+        "id": "skill-data-feeds",
+        "name": "data-feeds",
+        "type": "skill",
+        "path": "skills/web-data/skill-data-feeds.md"
+      },
+      {
         "id": "agent-data-researcher",
         "name": "data-researcher",
         "type": "agent",
@@ -1452,10 +2154,22 @@
         "path": "skills/scientific/skill-denario.md"
       },
       {
+        "id": "skill-design-mirror",
+        "name": "design-mirror",
+        "type": "skill",
+        "path": "skills/web-data/skill-design-mirror.md"
+      },
+      {
         "id": "skill-design-system-starter",
         "name": "design-system-starter",
         "type": "skill",
         "path": "skills/development/skill-design-system-starter.md"
+      },
+      {
+        "id": "skill-design-to-code",
+        "name": "design-to-code",
+        "type": "skill",
+        "path": "skills/design-to-code/skill-design-to-code.md"
       },
       {
         "id": "skill-developer-growth-analysis",
@@ -1500,6 +2214,12 @@
         "path": "skills/scientific/skill-dnanexus-integration.md"
       },
       {
+        "id": "skill-docs-search",
+        "name": "docs-search",
+        "type": "skill",
+        "path": "skills/ai-maestro/skill-docs-search.md"
+      },
+      {
         "id": "agent-documentation-engineer",
         "name": "documentation-engineer",
         "type": "agent",
@@ -1522,12 +2242,6 @@
         "name": "docx",
         "type": "skill",
         "path": "skills/scientific/skill-docx.md"
-      },
-      {
-        "id": "skill-docx",
-        "name": "docx",
-        "type": "skill",
-        "path": "skills/document-processing/skill-docx.md"
       },
       {
         "id": "agent-dotnet-core-expert",
@@ -1656,6 +2370,18 @@
         "path": "agents/web-tools/agent-expert-react-frontend-engineer.md"
       },
       {
+        "id": "skill-fastapi-endpoint",
+        "name": "fastapi-endpoint",
+        "type": "skill",
+        "path": "skills/web-development/skill-fastapi-endpoint.md"
+      },
+      {
+        "id": "skill-fastmcp-server",
+        "name": "fastmcp-server",
+        "type": "skill",
+        "path": "skills/development/skill-fastmcp-server.md"
+      },
+      {
         "id": "skill-fda-database",
         "name": "fda-database",
         "type": "skill",
@@ -1708,6 +2434,12 @@
         "name": "flutter-go-reviewer",
         "type": "agent",
         "path": "agents/development-tools/agent-flutter-go-reviewer.md"
+      },
+      {
+        "id": "skill-footballbin-predictions",
+        "name": "footballbin-predictions",
+        "type": "skill",
+        "path": "skills/sports/skill-footballbin-predictions.md"
       },
       {
         "id": "skill-frontend-dev-guidelines",
@@ -1786,6 +2518,12 @@
         "name": "github-workflow-automation",
         "type": "skill",
         "path": "skills/development/skill-github-workflow-automation.md"
+      },
+      {
+        "id": "skill-gmod-addon-maker",
+        "name": "gmod-addon-maker",
+        "type": "skill",
+        "path": "skills/gmod-addon-maker/skill-gmod-addon-maker.md"
       },
       {
         "id": "agent-golang-pro",
@@ -2598,6 +3336,12 @@
         "path": "agents/devops-infrastructure/agent-platform-engineer.md"
       },
       {
+        "id": "skill-playwright-e2e-builder",
+        "name": "playwright-e2e-builder",
+        "type": "skill",
+        "path": "skills/development/skill-playwright-e2e-builder.md"
+      },
+      {
         "id": "skill-playwright-skill",
         "name": "playwright-skill",
         "type": "skill",
@@ -2958,6 +3702,12 @@
         "path": "agents/development-tools/agent-rootly-incident-responder.md"
       },
       {
+        "id": "skill-rust-cli-builder",
+        "name": "rust-cli-builder",
+        "type": "skill",
+        "path": "skills/development/skill-rust-cli-builder.md"
+      },
+      {
         "id": "agent-rust-engineer",
         "name": "rust-engineer",
         "type": "agent",
@@ -3012,6 +3762,12 @@
         "path": "skills/scientific/skill-scikit-survival.md"
       },
       {
+        "id": "skill-scrape",
+        "name": "scrape",
+        "type": "skill",
+        "path": "skills/web-data/skill-scrape.md"
+      },
+      {
         "id": "skill-scvi-tools",
         "name": "scvi-tools",
         "type": "skill",
@@ -3046,6 +3802,12 @@
         "name": "seaborn",
         "type": "skill",
         "path": "skills/scientific/skill-seaborn.md"
+      },
+      {
+        "id": "skill-search",
+        "name": "search",
+        "type": "skill",
+        "path": "skills/web-data/skill-search.md"
       },
       {
         "id": "agent-search-ai-optimization-expert",
@@ -3166,12 +3928,6 @@
         "name": "skill-creator",
         "type": "skill",
         "path": "skills/productivity/skill-skill-creator.md"
-      },
-      {
-        "id": "skill-skill-creator",
-        "name": "skill-creator",
-        "type": "skill",
-        "path": "skills/development/skill-skill-creator.md"
       },
       {
         "id": "skill-skill-installer",
@@ -3594,6 +4350,12 @@
         "path": "skills/development/skill-writing-skills.md"
       },
       {
+        "id": "skill-x-twitter-scraper",
+        "name": "x-twitter-scraper",
+        "type": "skill",
+        "path": "skills/marketing/skill-x-twitter-scraper.md"
+      },
+      {
         "id": "skill-zapier-make-patterns",
         "name": "zapier-make-patterns",
         "type": "skill",
@@ -3630,6 +4392,12 @@
         "name": "AWS Penetration Testing",
         "type": "skill",
         "path": "skills/security/skill-aws-penetration-testing.md"
+      },
+      {
+        "id": "command-audit-external-sharing",
+        "name": "Audit External Sharing",
+        "type": "command",
+        "path": "commands/google-workspace/command-audit-external-sharing.md"
       },
       {
         "id": "command-bidirectional-sync",
@@ -3716,6 +4484,12 @@
         "path": "commands/git/command-git-flow-release-branch.md"
       },
       {
+        "id": "command-google-workspace-admin-reports",
+        "name": "Google Workspace Admin Reports",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-admin-reports.md"
+      },
+      {
         "id": "command-initialize-new-project",
         "name": "Initialize New Project",
         "type": "command",
@@ -3732,6 +4506,12 @@
         "name": "Install webpack-bundle-analyzer",
         "type": "command",
         "path": "commands/nextjs-vercel/command-install-webpack-bundle-analyzer.md"
+      },
+      {
+        "id": "command-it-admin-persona",
+        "name": "It Admin Persona",
+        "type": "command",
+        "path": "commands/google-workspace/command-it-admin-persona.md"
       },
       {
         "id": "command-list-all-environment-variables-for-all-environments",
@@ -3900,6 +4680,12 @@
         "name": "accessibility",
         "type": "skill",
         "path": "skills/development/skill-accessibility.md"
+      },
+      {
+        "id": "skill-agirails-agent-payments",
+        "name": "agirails-agent-payments",
+        "type": "skill",
+        "path": "skills/development/skill-agirails-agent-payments.md"
       },
       {
         "id": "agent-ai-engineer",
@@ -5074,6 +5860,12 @@
         "path": "skills/ai-research/skill-serving-llms-vllm.md"
       },
       {
+        "id": "skill-skill-creator",
+        "name": "skill-creator",
+        "type": "skill",
+        "path": "skills/development/skill-skill-creator.md"
+      },
+      {
         "id": "agent-test-engineer",
         "name": "test-engineer",
         "type": "agent",
@@ -5486,6 +6278,12 @@
         "path": "agents/development-tools/agent-command-expert.md"
       },
       {
+        "id": "skill-deadline-prep",
+        "name": "deadline-prep",
+        "type": "skill",
+        "path": "skills/productivity/skill-deadline-prep.md"
+      },
+      {
         "id": "agent-dependency-manager",
         "name": "dependency-manager",
         "type": "agent",
@@ -5802,6 +6600,12 @@
         "name": "platform-sre-kubernetes",
         "type": "agent",
         "path": "agents/security/agent-platform-sre-kubernetes.md"
+      },
+      {
+        "id": "skill-playwright-e2e-builder",
+        "name": "playwright-e2e-builder",
+        "type": "skill",
+        "path": "skills/development/skill-playwright-e2e-builder.md"
       },
       {
         "id": "skill-playwright-skill",
@@ -6202,6 +7006,12 @@
         "path": "skills/development/skill-git-commit-helper.md"
       },
       {
+        "id": "command-google-workspace-alertcenter",
+        "name": "Google Workspace Alertcenter",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-alertcenter.md"
+      },
+      {
         "id": "skill-html-injection-testing",
         "name": "HTML Injection Testing",
         "type": "skill",
@@ -6332,6 +7142,18 @@
         "name": "Plugin Structure",
         "type": "skill",
         "path": "skills/development/skill-plugin-structure.md"
+      },
+      {
+        "id": "skill-pocketbase-hooks",
+        "name": "PocketBase Hooks",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-hooks.md"
+      },
+      {
+        "id": "skill-pocketbase-migrations",
+        "name": "PocketBase Migrations",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-migrations.md"
       },
       {
         "id": "agent-readme",
@@ -6500,6 +7322,12 @@
         "name": "Task Report Command",
         "type": "command",
         "path": "commands/orchestration/command-task-report-command.md"
+      },
+      {
+        "id": "skill-telegram-bot-builder",
+        "name": "Telegram Bot Builder",
+        "type": "skill",
+        "path": "skills/development/skill-telegram-bot-builder.md"
       },
       {
         "id": "skill-top-100-web-vulnerabilities-reference",
@@ -6802,6 +7630,12 @@
         "path": "agents/development-tools/agent-code-reviewer.md"
       },
       {
+        "id": "agent-codebase-explorer",
+        "name": "codebase-explorer",
+        "type": "agent",
+        "path": "agents/development-tools/agent-codebase-explorer.md"
+      },
+      {
         "id": "agent-codebase-pattern-finder",
         "name": "codebase-pattern-finder",
         "type": "agent",
@@ -6818,6 +7652,12 @@
         "name": "command-expert",
         "type": "agent",
         "path": "agents/development-tools/agent-command-expert.md"
+      },
+      {
+        "id": "agent-commit-guardian",
+        "name": "commit-guardian",
+        "type": "agent",
+        "path": "agents/git/agent-commit-guardian.md"
       },
       {
         "id": "agent-computer-vision-engineer",
@@ -7076,6 +7916,12 @@
         "name": "faiss",
         "type": "skill",
         "path": "skills/ai-research/skill-faiss.md"
+      },
+      {
+        "id": "skill-fastapi-endpoint",
+        "name": "fastapi-endpoint",
+        "type": "skill",
+        "path": "skills/web-development/skill-fastapi-endpoint.md"
       },
       {
         "id": "skill-fda-consultant-specialist",
@@ -7648,6 +8494,12 @@
         "path": "agents/devops-infrastructure/agent-platform-engineer.md"
       },
       {
+        "id": "skill-playwright-e2e-builder",
+        "name": "playwright-e2e-builder",
+        "type": "skill",
+        "path": "skills/development/skill-playwright-e2e-builder.md"
+      },
+      {
         "id": "agent-postgres-pro",
         "name": "postgres-pro",
         "type": "agent",
@@ -7912,12 +8764,6 @@
         "path": "skills/productivity/skill-skill-creator.md"
       },
       {
-        "id": "skill-skill-creator",
-        "name": "skill-creator",
-        "type": "skill",
-        "path": "skills/development/skill-skill-creator.md"
-      },
-      {
         "id": "skill-skill-developer",
         "name": "skill-developer",
         "type": "skill",
@@ -8166,6 +9012,12 @@
         "path": "skills/development/skill-command-development.md"
       },
       {
+        "id": "command-deploy-apps-script",
+        "name": "Deploy Apps Script",
+        "type": "command",
+        "path": "commands/google-workspace/command-deploy-apps-script.md"
+      },
+      {
         "id": "command-deployment-monitoring-observability",
         "name": "Deployment Monitoring & Observability",
         "type": "command",
@@ -8244,6 +9096,12 @@
         "path": "skills/development/skill-plugin-structure.md"
       },
       {
+        "id": "skill-pocketbase-migrations",
+        "name": "PocketBase Migrations",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-migrations.md"
+      },
+      {
         "id": "command-release-preparation",
         "name": "Release Preparation",
         "type": "command",
@@ -8272,6 +9130,12 @@
         "name": "Writing Hookify Rules",
         "type": "skill",
         "path": "skills/productivity/skill-writing-hookify-rules.md"
+      },
+      {
+        "id": "skill-agent-messaging",
+        "name": "agent-messaging",
+        "type": "skill",
+        "path": "skills/ai-maestro/skill-agent-messaging.md"
       },
       {
         "id": "agent-ai-engineer",
@@ -8326,6 +9190,12 @@
         "name": "cloudflare-deploy",
         "type": "skill",
         "path": "skills/development/skill-cloudflare-deploy.md"
+      },
+      {
+        "id": "agent-codebase-explorer",
+        "name": "codebase-explorer",
+        "type": "agent",
+        "path": "agents/development-tools/agent-codebase-explorer.md"
       },
       {
         "id": "agent-command-expert",
@@ -8814,6 +9684,12 @@
         "path": "agents/development-tools/agent-rootly-incident-responder.md"
       },
       {
+        "id": "skill-rust-cli-builder",
+        "name": "rust-cli-builder",
+        "type": "skill",
+        "path": "skills/development/skill-rust-cli-builder.md"
+      },
+      {
         "id": "agent-se-gitops-ci-specialist",
         "name": "se-gitops-ci-specialist",
         "type": "agent",
@@ -8896,6 +9772,12 @@
         "name": "skill-creator",
         "type": "skill",
         "path": "skills/productivity/skill-skill-creator.md"
+      },
+      {
+        "id": "skill-skill-creator",
+        "name": "skill-creator",
+        "type": "skill",
+        "path": "skills/development/skill-skill-creator.md"
       },
       {
         "id": "skill-skill-judge",
@@ -9254,6 +10136,12 @@
         "path": "commands/performance/command-performance-audit.md"
       },
       {
+        "id": "skill-pocketbase-deploy",
+        "name": "PocketBase Deploy",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-deploy.md"
+      },
+      {
         "id": "command-release-preparation",
         "name": "Release Preparation",
         "type": "command",
@@ -9306,6 +10194,12 @@
         "name": "System Behavior Simulator",
         "type": "command",
         "path": "commands/performance/command-system-behavior-simulator.md"
+      },
+      {
+        "id": "skill-telegram-bot-builder",
+        "name": "Telegram Bot Builder",
+        "type": "skill",
+        "path": "skills/development/skill-telegram-bot-builder.md"
       },
       {
         "id": "command-test-changelog-automation",
@@ -9534,6 +10428,12 @@
         "name": "code-reviewer",
         "type": "skill",
         "path": "skills/development/skill-code-reviewer.md"
+      },
+      {
+        "id": "agent-codebase-explorer",
+        "name": "codebase-explorer",
+        "type": "agent",
+        "path": "agents/development-tools/agent-codebase-explorer.md"
       },
       {
         "id": "agent-comet-opik",
@@ -10954,6 +11854,12 @@
         "path": "commands/performance/command-optimize-memory-usage.md"
       },
       {
+        "id": "skill-pocketbase-deploy",
+        "name": "PocketBase Deploy",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-deploy.md"
+      },
+      {
         "id": "command-security-audit",
         "name": "Security Audit",
         "type": "command",
@@ -11002,6 +11908,12 @@
         "path": "commands/utilities/command-system-cache-cleanup.md"
       },
       {
+        "id": "skill-telegram-bot-builder",
+        "name": "Telegram Bot Builder",
+        "type": "skill",
+        "path": "skills/development/skill-telegram-bot-builder.md"
+      },
+      {
         "id": "command-troubleshooting-guide-generator",
         "name": "Troubleshooting Guide Generator",
         "type": "command",
@@ -11012,6 +11924,12 @@
         "name": "Workflow Orchestrator",
         "type": "command",
         "path": "commands/automation/command-workflow-orchestrator.md"
+      },
+      {
+        "id": "skill-agirails-agent-payments",
+        "name": "agirails-agent-payments",
+        "type": "skill",
+        "path": "skills/development/skill-agirails-agent-payments.md"
       },
       {
         "id": "skill-autogpt-agents",
@@ -11056,10 +11974,22 @@
         "path": "skills/development/skill-code-reviewer.md"
       },
       {
+        "id": "agent-codebase-explorer",
+        "name": "codebase-explorer",
+        "type": "agent",
+        "path": "agents/development-tools/agent-codebase-explorer.md"
+      },
+      {
         "id": "skill-computer-use-agents",
         "name": "computer-use-agents",
         "type": "skill",
         "path": "skills/ai-research/skill-computer-use-agents.md"
+      },
+      {
+        "id": "skill-deadline-prep",
+        "name": "deadline-prep",
+        "type": "skill",
+        "path": "skills/productivity/skill-deadline-prep.md"
       },
       {
         "id": "skill-denario",
@@ -11258,6 +12188,12 @@
         "name": "php-pro",
         "type": "agent",
         "path": "agents/programming-languages/agent-php-pro.md"
+      },
+      {
+        "id": "skill-playwright-e2e-builder",
+        "name": "playwright-e2e-builder",
+        "type": "skill",
+        "path": "skills/development/skill-playwright-e2e-builder.md"
       },
       {
         "id": "agent-python-pro",
@@ -11772,6 +12708,12 @@
         "path": "skills/development/skill-plugin-settings.md"
       },
       {
+        "id": "skill-pocketbase-migrations",
+        "name": "PocketBase Migrations",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-migrations.md"
+      },
+      {
         "id": "command-project-health-check",
         "name": "Project Health Check",
         "type": "command",
@@ -11892,6 +12834,12 @@
         "path": "commands/project-management/command-update-pac-ticket-status.md"
       },
       {
+        "id": "skill-agent-management",
+        "name": "agent-management",
+        "type": "skill",
+        "path": "skills/ai-maestro/skill-agent-management.md"
+      },
+      {
         "id": "skill-agent-manager-skill",
         "name": "agent-manager-skill",
         "type": "skill",
@@ -11908,6 +12856,18 @@
         "name": "agent-memory-mcp",
         "type": "skill",
         "path": "skills/ai-research/skill-agent-memory-mcp.md"
+      },
+      {
+        "id": "skill-agent-messaging",
+        "name": "agent-messaging",
+        "type": "skill",
+        "path": "skills/ai-maestro/skill-agent-messaging.md"
+      },
+      {
+        "id": "skill-agirails-agent-payments",
+        "name": "agirails-agent-payments",
+        "type": "skill",
+        "path": "skills/development/skill-agirails-agent-payments.md"
       },
       {
         "id": "skill-api-security-best-practices",
@@ -11988,6 +12948,12 @@
         "path": "agents/data-ai/agent-code-tour.md"
       },
       {
+        "id": "agent-codebase-explorer",
+        "name": "codebase-explorer",
+        "type": "agent",
+        "path": "agents/development-tools/agent-codebase-explorer.md"
+      },
+      {
         "id": "skill-codex",
         "name": "codex",
         "type": "skill",
@@ -12012,6 +12978,18 @@
         "path": "agents/development-tools/agent-command-expert.md"
       },
       {
+        "id": "agent-commit-guardian",
+        "name": "commit-guardian",
+        "type": "agent",
+        "path": "agents/git/agent-commit-guardian.md"
+      },
+      {
+        "id": "skill-commit-smart",
+        "name": "commit-smart",
+        "type": "skill",
+        "path": "skills/git/skill-commit-smart.md"
+      },
+      {
         "id": "skill-commit-work",
         "name": "commit-work",
         "type": "skill",
@@ -12034,6 +13012,12 @@
         "name": "daily-meeting-update",
         "type": "skill",
         "path": "skills/enterprise-communication/skill-daily-meeting-update.md"
+      },
+      {
+        "id": "skill-deadline-prep",
+        "name": "deadline-prep",
+        "type": "skill",
+        "path": "skills/productivity/skill-deadline-prep.md"
       },
       {
         "id": "agent-debug",
@@ -12078,6 +13062,12 @@
         "path": "skills/ai-research/skill-distributed-llm-pretraining-torchtitan.md"
       },
       {
+        "id": "skill-docs-search",
+        "name": "docs-search",
+        "type": "skill",
+        "path": "skills/ai-maestro/skill-docs-search.md"
+      },
+      {
         "id": "agent-droid",
         "name": "droid",
         "type": "agent",
@@ -12118,6 +13108,12 @@
         "name": "finishing-a-development-branch",
         "type": "skill",
         "path": "skills/development/skill-finishing-a-development-branch.md"
+      },
+      {
+        "id": "skill-gcc",
+        "name": "gcc",
+        "type": "skill",
+        "path": "skills/git/skill-gcc.md"
       },
       {
         "id": "skill-geniml",
@@ -12166,6 +13162,12 @@
         "name": "gpt-5-beast-mode",
         "type": "agent",
         "path": "agents/expert-advisors/agent-gpt-5-beast-mode.md"
+      },
+      {
+        "id": "skill-graph-query",
+        "name": "graph-query",
+        "type": "skill",
+        "path": "skills/ai-maestro/skill-graph-query.md"
       },
       {
         "id": "skill-hypogenic",
@@ -12238,6 +13240,12 @@
         "name": "long-context",
         "type": "skill",
         "path": "skills/ai-research/skill-long-context.md"
+      },
+      {
+        "id": "skill-memory-search",
+        "name": "memory-search",
+        "type": "skill",
+        "path": "skills/ai-maestro/skill-memory-search.md"
       },
       {
         "id": "skill-mermaid-diagram-specialist",
@@ -12382,6 +13390,12 @@
         "name": "requesting-code-review",
         "type": "skill",
         "path": "skills/development/skill-requesting-code-review.md"
+      },
+      {
+        "id": "skill-rust-cli-builder",
+        "name": "rust-cli-builder",
+        "type": "skill",
+        "path": "skills/development/skill-rust-cli-builder.md"
       },
       {
         "id": "agent-se-gitops-ci-specialist",
@@ -12632,6 +13646,12 @@
         "path": "commands/testing/command-add-mutation-testing.md"
       },
       {
+        "id": "command-audit-external-sharing",
+        "name": "Audit External Sharing",
+        "type": "command",
+        "path": "commands/google-workspace/command-audit-external-sharing.md"
+      },
+      {
         "id": "command-automated-api-documentation-generator",
         "name": "Automated API Documentation Generator",
         "type": "command",
@@ -12644,10 +13664,46 @@
         "path": "commands/deployment/command-automated-release-system.md"
       },
       {
+        "id": "command-backup-sheet-as-csv",
+        "name": "Backup Sheet As Csv",
+        "type": "command",
+        "path": "commands/google-workspace/command-backup-sheet-as-csv.md"
+      },
+      {
+        "id": "command-batch-invite-to-event",
+        "name": "Batch Invite To Event",
+        "type": "command",
+        "path": "commands/google-workspace/command-batch-invite-to-event.md"
+      },
+      {
+        "id": "command-batch-rename-files",
+        "name": "Batch Rename Files",
+        "type": "command",
+        "path": "commands/google-workspace/command-batch-rename-files.md"
+      },
+      {
+        "id": "command-batch-reply-to-emails",
+        "name": "Batch Reply To Emails",
+        "type": "command",
+        "path": "commands/google-workspace/command-batch-reply-to-emails.md"
+      },
+      {
         "id": "command-bidirectional-sync",
         "name": "Bidirectional Sync",
         "type": "command",
         "path": "commands/sync/command-bidirectional-sync.md"
+      },
+      {
+        "id": "command-block-focus-time",
+        "name": "Block Focus Time",
+        "type": "command",
+        "path": "commands/google-workspace/command-block-focus-time.md"
+      },
+      {
+        "id": "command-bulk-download-folder",
+        "name": "Bulk Download Folder",
+        "type": "command",
+        "path": "commands/google-workspace/command-bulk-download-folder.md"
       },
       {
         "id": "command-bulk-import-issues",
@@ -12668,16 +13724,124 @@
         "path": "commands/deployment/command-cicd-pipeline-setup.md"
       },
       {
+        "id": "command-cancel-and-notify",
+        "name": "Cancel And Notify",
+        "type": "command",
+        "path": "commands/google-workspace/command-cancel-and-notify.md"
+      },
+      {
         "id": "skill-claude-code-guide",
         "name": "Claude Code Guide",
         "type": "skill",
         "path": "skills/ai-research/skill-claude-code-guide.md"
       },
       {
+        "id": "command-collect-form-responses",
+        "name": "Collect Form Responses",
+        "type": "command",
+        "path": "commands/google-workspace/command-collect-form-responses.md"
+      },
+      {
+        "id": "command-compare-sheet-tabs",
+        "name": "Compare Sheet Tabs",
+        "type": "command",
+        "path": "commands/google-workspace/command-compare-sheet-tabs.md"
+      },
+      {
+        "id": "command-content-creator-persona",
+        "name": "Content Creator Persona",
+        "type": "command",
+        "path": "commands/google-workspace/command-content-creator-persona.md"
+      },
+      {
+        "id": "command-copy-sheet-for-new-month",
+        "name": "Copy Sheet For New Month",
+        "type": "command",
+        "path": "commands/google-workspace/command-copy-sheet-for-new-month.md"
+      },
+      {
+        "id": "command-create-classroom-course",
+        "name": "Create Classroom Course",
+        "type": "command",
+        "path": "commands/google-workspace/command-create-classroom-course.md"
+      },
+      {
+        "id": "command-create-doc-from-template",
+        "name": "Create Doc From Template",
+        "type": "command",
+        "path": "commands/google-workspace/command-create-doc-from-template.md"
+      },
+      {
+        "id": "command-create-events-from-sheet",
+        "name": "Create Events From Sheet",
+        "type": "command",
+        "path": "commands/google-workspace/command-create-events-from-sheet.md"
+      },
+      {
+        "id": "command-create-expense-tracker",
+        "name": "Create Expense Tracker",
+        "type": "command",
+        "path": "commands/google-workspace/command-create-expense-tracker.md"
+      },
+      {
+        "id": "command-create-feedback-form",
+        "name": "Create Feedback Form",
+        "type": "command",
+        "path": "commands/google-workspace/command-create-feedback-form.md"
+      },
+      {
+        "id": "command-create-gmail-filter",
+        "name": "Create Gmail Filter",
+        "type": "command",
+        "path": "commands/google-workspace/command-create-gmail-filter.md"
+      },
+      {
+        "id": "command-create-meet-space",
+        "name": "Create Meet Space",
+        "type": "command",
+        "path": "commands/google-workspace/command-create-meet-space.md"
+      },
+      {
+        "id": "command-create-presentation",
+        "name": "Create Presentation",
+        "type": "command",
+        "path": "commands/google-workspace/command-create-presentation.md"
+      },
+      {
+        "id": "command-create-shared-drive",
+        "name": "Create Shared Drive",
+        "type": "command",
+        "path": "commands/google-workspace/command-create-shared-drive.md"
+      },
+      {
+        "id": "command-create-task-list",
+        "name": "Create Task List",
+        "type": "command",
+        "path": "commands/google-workspace/command-create-task-list.md"
+      },
+      {
+        "id": "command-create-vacation-responder",
+        "name": "Create Vacation Responder",
+        "type": "command",
+        "path": "commands/google-workspace/command-create-vacation-responder.md"
+      },
+      {
         "id": "command-cross-reference-manager",
         "name": "Cross-Reference Manager",
         "type": "command",
         "path": "commands/sync/command-cross-reference-manager.md"
+      },
+      {
+        "id": "command-customer-support-persona",
+        "name": "Customer Support Persona",
+        "type": "command",
+        "path": "commands/google-workspace/command-customer-support-persona.md"
+      },
+      {
+        "id": "command-deploy-apps-script",
+        "name": "Deploy Apps Script",
+        "type": "command",
+        "path": "commands/google-workspace/command-deploy-apps-script.md"
       },
       {
         "id": "command-developer-onboarding-guide-generator",
@@ -12692,16 +13856,58 @@
         "path": "commands/utilities/command-display-all-available-development-tools.md"
       },
       {
+        "id": "command-draft-email-from-doc",
+        "name": "Draft Email From Doc",
+        "type": "command",
+        "path": "commands/google-workspace/command-draft-email-from-doc.md"
+      },
+      {
         "id": "command-e2e-setup",
         "name": "E2E Setup",
         "type": "command",
         "path": "commands/testing/command-e2e-setup.md"
       },
       {
+        "id": "command-email-drive-link",
+        "name": "Email Drive Link",
+        "type": "command",
+        "path": "commands/google-workspace/command-email-drive-link.md"
+      },
+      {
         "id": "command-enhanced-ai-mode-for-complex-tasks",
         "name": "Enhanced AI Mode for Complex Tasks",
         "type": "command",
         "path": "commands/utilities/command-enhanced-ai-mode-for-complex-tasks.md"
+      },
+      {
+        "id": "command-event-coordinator-persona",
+        "name": "Event Coordinator Persona",
+        "type": "command",
+        "path": "commands/google-workspace/command-event-coordinator-persona.md"
+      },
+      {
+        "id": "command-exec-assistant-persona",
+        "name": "Exec Assistant Persona",
+        "type": "command",
+        "path": "commands/google-workspace/command-exec-assistant-persona.md"
+      },
+      {
+        "id": "command-find-free-time",
+        "name": "Find Free Time",
+        "type": "command",
+        "path": "commands/google-workspace/command-find-free-time.md"
+      },
+      {
+        "id": "command-find-large-files",
+        "name": "Find Large Files",
+        "type": "command",
+        "path": "commands/google-workspace/command-find-large-files.md"
+      },
+      {
+        "id": "command-forward-labeled-emails",
+        "name": "Forward Labeled Emails",
+        "type": "command",
+        "path": "commands/google-workspace/command-forward-labeled-emails.md"
       },
       {
         "id": "command-get-request",
@@ -12720,6 +13926,12 @@
         "name": "Gemini PR Review Automation",
         "type": "command",
         "path": "commands/git-workflow/command-gemini-pr-review-automation.md"
+      },
+      {
+        "id": "command-generate-report-from-sheet",
+        "name": "Generate Report From Sheet",
+        "type": "command",
+        "path": "commands/google-workspace/command-generate-report-from-sheet.md"
       },
       {
         "id": "command-git-branch-cleanup-organization",
@@ -12746,10 +13958,298 @@
         "path": "commands/project-management/command-github-issues.md"
       },
       {
+        "id": "command-google-workspace-admin",
+        "name": "Google Workspace Admin",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-admin.md"
+      },
+      {
+        "id": "command-google-workspace-admin-reports",
+        "name": "Google Workspace Admin Reports",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-admin-reports.md"
+      },
+      {
+        "id": "command-google-workspace-alertcenter",
+        "name": "Google Workspace Alertcenter",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-alertcenter.md"
+      },
+      {
+        "id": "command-google-workspace-apps-script",
+        "name": "Google Workspace Apps Script",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-apps-script.md"
+      },
+      {
+        "id": "command-google-workspace-apps-script-push",
+        "name": "Google Workspace Apps Script Push",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-apps-script-push.md"
+      },
+      {
+        "id": "command-google-workspace-calendar",
+        "name": "Google Workspace Calendar",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-calendar.md"
+      },
+      {
+        "id": "command-google-workspace-calendar-agenda",
+        "name": "Google Workspace Calendar Agenda",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-calendar-agenda.md"
+      },
+      {
+        "id": "command-google-workspace-calendar-insert",
+        "name": "Google Workspace Calendar Insert",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-calendar-insert.md"
+      },
+      {
+        "id": "command-google-workspace-chat",
+        "name": "Google Workspace Chat",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-chat.md"
+      },
+      {
+        "id": "command-google-workspace-chat-send",
+        "name": "Google Workspace Chat Send",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-chat-send.md"
+      },
+      {
+        "id": "command-google-workspace-classroom",
+        "name": "Google Workspace Classroom",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-classroom.md"
+      },
+      {
+        "id": "command-google-workspace-cloudidentity",
+        "name": "Google Workspace Cloudidentity",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-cloudidentity.md"
+      },
+      {
+        "id": "command-google-workspace-docs",
+        "name": "Google Workspace Docs",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-docs.md"
+      },
+      {
+        "id": "command-google-workspace-docs-write",
+        "name": "Google Workspace Docs Write",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-docs-write.md"
+      },
+      {
+        "id": "command-google-workspace-drive",
+        "name": "Google Workspace Drive",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-drive.md"
+      },
+      {
+        "id": "command-google-workspace-drive-upload",
+        "name": "Google Workspace Drive Upload",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-drive-upload.md"
+      },
+      {
+        "id": "command-google-workspace-events",
+        "name": "Google Workspace Events",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-events.md"
+      },
+      {
+        "id": "command-google-workspace-events-renew",
+        "name": "Google Workspace Events Renew",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-events-renew.md"
+      },
+      {
+        "id": "command-google-workspace-events-subscribe",
+        "name": "Google Workspace Events Subscribe",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-events-subscribe.md"
+      },
+      {
+        "id": "command-google-workspace-forms",
+        "name": "Google Workspace Forms",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-forms.md"
+      },
+      {
+        "id": "command-google-workspace-gmail",
+        "name": "Google Workspace Gmail",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-gmail.md"
+      },
+      {
+        "id": "command-google-workspace-gmail-send",
+        "name": "Google Workspace Gmail Send",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-gmail-send.md"
+      },
+      {
+        "id": "command-google-workspace-gmail-triage",
+        "name": "Google Workspace Gmail Triage",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-gmail-triage.md"
+      },
+      {
+        "id": "command-google-workspace-gmail-watch",
+        "name": "Google Workspace Gmail Watch",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-gmail-watch.md"
+      },
+      {
+        "id": "command-google-workspace-groupssettings",
+        "name": "Google Workspace Groupssettings",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-groupssettings.md"
+      },
+      {
+        "id": "command-google-workspace-keep",
+        "name": "Google Workspace Keep",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-keep.md"
+      },
+      {
+        "id": "command-google-workspace-licensing",
+        "name": "Google Workspace Licensing",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-licensing.md"
+      },
+      {
+        "id": "command-google-workspace-meet",
+        "name": "Google Workspace Meet",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-meet.md"
+      },
+      {
+        "id": "command-google-workspace-modelarmor",
+        "name": "Google Workspace Modelarmor",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-modelarmor.md"
+      },
+      {
+        "id": "command-google-workspace-modelarmor-create-template",
+        "name": "Google Workspace Modelarmor Create Template",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-modelarmor-create-template.md"
+      },
+      {
+        "id": "command-google-workspace-modelarmor-sanitize-prompt",
+        "name": "Google Workspace Modelarmor Sanitize Prompt",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-modelarmor-sanitize-prompt.md"
+      },
+      {
+        "id": "command-google-workspace-modelarmor-sanitize-response",
+        "name": "Google Workspace Modelarmor Sanitize Response",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-modelarmor-sanitize-response.md"
+      },
+      {
+        "id": "command-google-workspace-people",
+        "name": "Google Workspace People",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-people.md"
+      },
+      {
+        "id": "command-google-workspace-reseller",
+        "name": "Google Workspace Reseller",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-reseller.md"
+      },
+      {
+        "id": "command-google-workspace-shared",
+        "name": "Google Workspace Shared",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-shared.md"
+      },
+      {
+        "id": "command-google-workspace-sheets",
+        "name": "Google Workspace Sheets",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-sheets.md"
+      },
+      {
+        "id": "command-google-workspace-sheets-append",
+        "name": "Google Workspace Sheets Append",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-sheets-append.md"
+      },
+      {
+        "id": "command-google-workspace-sheets-read",
+        "name": "Google Workspace Sheets Read",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-sheets-read.md"
+      },
+      {
+        "id": "command-google-workspace-slides",
+        "name": "Google Workspace Slides",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-slides.md"
+      },
+      {
+        "id": "command-google-workspace-tasks",
+        "name": "Google Workspace Tasks",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-tasks.md"
+      },
+      {
+        "id": "command-google-workspace-vault",
+        "name": "Google Workspace Vault",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-vault.md"
+      },
+      {
+        "id": "command-google-workspace-workflow",
+        "name": "Google Workspace Workflow",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-workflow.md"
+      },
+      {
+        "id": "command-google-workspace-workflow-email-to-task",
+        "name": "Google Workspace Workflow Email To Task",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-workflow-email-to-task.md"
+      },
+      {
+        "id": "command-google-workspace-workflow-file-announce",
+        "name": "Google Workspace Workflow File Announce",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-workflow-file-announce.md"
+      },
+      {
+        "id": "command-google-workspace-workflow-meeting-prep",
+        "name": "Google Workspace Workflow Meeting Prep",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-workflow-meeting-prep.md"
+      },
+      {
+        "id": "command-google-workspace-workflow-standup-report",
+        "name": "Google Workspace Workflow Standup Report",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-workflow-standup-report.md"
+      },
+      {
+        "id": "command-google-workspace-workflow-weekly-digest",
+        "name": "Google Workspace Workflow Weekly Digest",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-workflow-weekly-digest.md"
+      },
+      {
         "id": "command-how-to-create-a-pull-request-using-github-cli",
         "name": "How to Create a Pull Request Using GitHub CLI",
         "type": "command",
         "path": "commands/git-workflow/command-how-to-create-a-pull-request-using-github-cli.md"
+      },
+      {
+        "id": "command-hr-coordinator-persona",
+        "name": "Hr Coordinator Persona",
+        "type": "command",
+        "path": "commands/google-workspace/command-hr-coordinator-persona.md"
       },
       {
         "id": "command-initialize-new-project",
@@ -12788,6 +14288,18 @@
         "path": "commands/sync/command-issue-to-linear-task.md"
       },
       {
+        "id": "command-it-admin-persona",
+        "name": "It Admin Persona",
+        "type": "command",
+        "path": "commands/google-workspace/command-it-admin-persona.md"
+      },
+      {
+        "id": "command-label-and-archive-emails",
+        "name": "Label And Archive Emails",
+        "type": "command",
+        "path": "commands/google-workspace/command-label-and-archive-emails.md"
+      },
+      {
         "id": "command-linear-task-to-issue",
         "name": "Linear Task to Issue",
         "type": "command",
@@ -12810,6 +14322,12 @@
         "name": "List all environment variables for all environments",
         "type": "command",
         "path": "commands/nextjs-vercel/command-list-all-environment-variables-for-all-environments.md"
+      },
+      {
+        "id": "command-log-deal-update",
+        "name": "Log Deal Update",
+        "type": "command",
+        "path": "commands/google-workspace/command-log-deal-update.md"
       },
       {
         "id": "skill-mcp-integration",
@@ -12836,6 +14354,12 @@
         "path": "commands/orchestration/command-orchestration-log-command.md"
       },
       {
+        "id": "command-organize-drive-folder",
+        "name": "Organize Drive Folder",
+        "type": "command",
+        "path": "commands/google-workspace/command-organize-drive-folder.md"
+      },
+      {
         "id": "skill-pdf-processing-pro",
         "name": "PDF Processing Pro",
         "type": "skill",
@@ -12848,10 +14372,34 @@
         "path": "commands/git-workflow/command-pr-review.md"
       },
       {
+        "id": "command-plan-weekly-schedule",
+        "name": "Plan Weekly Schedule",
+        "type": "command",
+        "path": "commands/google-workspace/command-plan-weekly-schedule.md"
+      },
+      {
         "id": "skill-plugin-structure",
         "name": "Plugin Structure",
         "type": "skill",
         "path": "skills/development/skill-plugin-structure.md"
+      },
+      {
+        "id": "skill-pocketbase-deploy",
+        "name": "PocketBase Deploy",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-deploy.md"
+      },
+      {
+        "id": "command-post-mortem-setup",
+        "name": "Post Mortem Setup",
+        "type": "command",
+        "path": "commands/google-workspace/command-post-mortem-setup.md"
+      },
+      {
+        "id": "command-project-manager-persona",
+        "name": "Project Manager Persona",
+        "type": "command",
+        "path": "commands/google-workspace/command-project-manager-persona.md"
       },
       {
         "id": "command-release-preparation",
@@ -12860,10 +14408,64 @@
         "path": "commands/deployment/command-release-preparation.md"
       },
       {
+        "id": "command-reschedule-meeting",
+        "name": "Reschedule Meeting",
+        "type": "command",
+        "path": "commands/google-workspace/command-reschedule-meeting.md"
+      },
+      {
+        "id": "command-researcher-persona",
+        "name": "Researcher Persona",
+        "type": "command",
+        "path": "commands/google-workspace/command-researcher-persona.md"
+      },
+      {
+        "id": "command-review-meet-participants",
+        "name": "Review Meet Participants",
+        "type": "command",
+        "path": "commands/google-workspace/command-review-meet-participants.md"
+      },
+      {
+        "id": "command-review-overdue-tasks",
+        "name": "Review Overdue Tasks",
+        "type": "command",
+        "path": "commands/google-workspace/command-review-overdue-tasks.md"
+      },
+      {
         "id": "skill-sqlmap-database-penetration-testing",
         "name": "SQLMap Database Penetration Testing",
         "type": "skill",
         "path": "skills/security/skill-sqlmap-database-penetration-testing.md"
+      },
+      {
+        "id": "command-sales-ops-persona",
+        "name": "Sales Ops Persona",
+        "type": "command",
+        "path": "commands/google-workspace/command-sales-ops-persona.md"
+      },
+      {
+        "id": "command-save-email-attachments",
+        "name": "Save Email Attachments",
+        "type": "command",
+        "path": "commands/google-workspace/command-save-email-attachments.md"
+      },
+      {
+        "id": "command-save-email-to-doc",
+        "name": "Save Email To Doc",
+        "type": "command",
+        "path": "commands/google-workspace/command-save-email-to-doc.md"
+      },
+      {
+        "id": "command-schedule-recurring-event",
+        "name": "Schedule Recurring Event",
+        "type": "command",
+        "path": "commands/google-workspace/command-schedule-recurring-event.md"
+      },
+      {
+        "id": "command-search-and-export-emails",
+        "name": "Search And Export Emails",
+        "type": "command",
+        "path": "commands/google-workspace/command-search-and-export-emails.md"
       },
       {
         "id": "command-secrets-scanner",
@@ -12876,6 +14478,18 @@
         "name": "Security Audit",
         "type": "command",
         "path": "commands/security/command-security-audit.md"
+      },
+      {
+        "id": "command-send-personalized-emails",
+        "name": "Send Personalized Emails",
+        "type": "command",
+        "path": "commands/google-workspace/command-send-personalized-emails.md"
+      },
+      {
+        "id": "command-send-team-announcement",
+        "name": "Send Team Announcement",
+        "type": "command",
+        "path": "commands/google-workspace/command-send-team-announcement.md"
       },
       {
         "id": "command-setup-cicd-pipeline",
@@ -12896,6 +14510,24 @@
         "path": "commands/testing/command-setup-visual-testing.md"
       },
       {
+        "id": "command-share-doc-and-notify",
+        "name": "Share Doc And Notify",
+        "type": "command",
+        "path": "commands/google-workspace/command-share-doc-and-notify.md"
+      },
+      {
+        "id": "command-share-event-materials",
+        "name": "Share Event Materials",
+        "type": "command",
+        "path": "commands/google-workspace/command-share-event-materials.md"
+      },
+      {
+        "id": "command-share-folder-with-team",
+        "name": "Share Folder With Team",
+        "type": "command",
+        "path": "commands/google-workspace/command-share-folder-with-team.md"
+      },
+      {
         "id": "command-sprint-planning",
         "name": "Sprint Planning",
         "type": "command",
@@ -12906,6 +14538,12 @@
         "name": "Sync Automation Setup",
         "type": "command",
         "path": "commands/sync/command-sync-automation-setup.md"
+      },
+      {
+        "id": "command-sync-contacts-to-sheet",
+        "name": "Sync Contacts To Sheet",
+        "type": "command",
+        "path": "commands/google-workspace/command-sync-contacts-to-sheet.md"
       },
       {
         "id": "command-sync-health-monitor",
@@ -12956,6 +14594,12 @@
         "path": "commands/sync/command-task-from-pr.md"
       },
       {
+        "id": "command-team-lead-persona",
+        "name": "Team Lead Persona",
+        "type": "command",
+        "path": "commands/google-workspace/command-team-lead-persona.md"
+      },
+      {
         "id": "command-test-automation-orchestrator",
         "name": "Test Automation Orchestrator",
         "type": "command",
@@ -12966,6 +14610,24 @@
         "name": "Test Changelog Automation",
         "type": "command",
         "path": "commands/testing/command-test-changelog-automation.md"
+      },
+      {
+        "id": "command-transfer-file-ownership",
+        "name": "Transfer File Ownership",
+        "type": "command",
+        "path": "commands/google-workspace/command-transfer-file-ownership.md"
+      },
+      {
+        "id": "command-triage-security-alerts",
+        "name": "Triage Security Alerts",
+        "type": "command",
+        "path": "commands/google-workspace/command-triage-security-alerts.md"
+      },
+      {
+        "id": "command-watch-drive-changes",
+        "name": "Watch Drive Changes",
+        "type": "command",
+        "path": "commands/google-workspace/command-watch-drive-changes.md"
       },
       {
         "id": "command-web-design-reviewer",
@@ -12998,6 +14660,12 @@
         "path": "agents/expert-advisors/agent-agent-installer.md"
       },
       {
+        "id": "skill-agent-management",
+        "name": "agent-management",
+        "type": "skill",
+        "path": "skills/ai-maestro/skill-agent-management.md"
+      },
+      {
         "id": "skill-agent-manager-skill",
         "name": "agent-manager-skill",
         "type": "skill",
@@ -13010,10 +14678,22 @@
         "path": "skills/ai-research/skill-agent-memory-mcp.md"
       },
       {
+        "id": "skill-agent-messaging",
+        "name": "agent-messaging",
+        "type": "skill",
+        "path": "skills/ai-maestro/skill-agent-messaging.md"
+      },
+      {
         "id": "agent-agent-overview",
         "name": "agent-overview",
         "type": "agent",
         "path": "agents/deep-research-team/agent-agent-overview.md"
+      },
+      {
+        "id": "skill-agirails-agent-payments",
+        "name": "agirails-agent-payments",
+        "type": "skill",
+        "path": "skills/development/skill-agirails-agent-payments.md"
       },
       {
         "id": "skill-alphafold-database",
@@ -13208,6 +14888,12 @@
         "path": "agents/security/agent-comet-opik.md"
       },
       {
+        "id": "agent-commit-guardian",
+        "name": "commit-guardian",
+        "type": "agent",
+        "path": "agents/git/agent-commit-guardian.md"
+      },
+      {
         "id": "agent-context7",
         "name": "context7",
         "type": "agent",
@@ -13248,6 +14934,12 @@
         "name": "daily-meeting-update",
         "type": "skill",
         "path": "skills/enterprise-communication/skill-daily-meeting-update.md"
+      },
+      {
+        "id": "skill-data-feeds",
+        "name": "data-feeds",
+        "type": "skill",
+        "path": "skills/web-data/skill-data-feeds.md"
       },
       {
         "id": "skill-data-processing-ray-data",
@@ -13344,6 +15036,12 @@
         "name": "docker-expert",
         "type": "skill",
         "path": "skills/development/skill-docker-expert.md"
+      },
+      {
+        "id": "skill-docs-search",
+        "name": "docs-search",
+        "type": "skill",
+        "path": "skills/ai-maestro/skill-docs-search.md"
       },
       {
         "id": "agent-documentation-engineer",
@@ -13524,6 +15222,12 @@
         "name": "gptq",
         "type": "skill",
         "path": "skills/ai-research/skill-gptq.md"
+      },
+      {
+        "id": "skill-graph-query",
+        "name": "graph-query",
+        "type": "skill",
+        "path": "skills/ai-maestro/skill-graph-query.md"
       },
       {
         "id": "skill-grpo-rl-training",
@@ -13758,6 +15462,12 @@
         "name": "meme-factory",
         "type": "skill",
         "path": "skills/creative-design/skill-meme-factory.md"
+      },
+      {
+        "id": "skill-memory-search",
+        "name": "memory-search",
+        "type": "skill",
+        "path": "skills/ai-maestro/skill-memory-search.md"
       },
       {
         "id": "skill-mermaid-diagram-specialist",
@@ -14012,6 +15722,18 @@
         "path": "skills/ai-research/skill-phoenix-observability.md"
       },
       {
+        "id": "skill-planning",
+        "name": "planning",
+        "type": "skill",
+        "path": "skills/ai-maestro/skill-planning.md"
+      },
+      {
+        "id": "skill-playwright-e2e-builder",
+        "name": "playwright-e2e-builder",
+        "type": "skill",
+        "path": "skills/development/skill-playwright-e2e-builder.md"
+      },
+      {
         "id": "agent-power-platform-expert",
         "name": "power-platform-expert",
         "type": "agent",
@@ -14210,6 +15932,12 @@
         "path": "agents/development-tools/agent-rootly-incident-responder.md"
       },
       {
+        "id": "skill-rust-cli-builder",
+        "name": "rust-cli-builder",
+        "type": "skill",
+        "path": "skills/development/skill-rust-cli-builder.md"
+      },
+      {
         "id": "skill-rwkv-architecture",
         "name": "rwkv-architecture",
         "type": "skill",
@@ -14226,6 +15954,12 @@
         "name": "scikit-survival",
         "type": "skill",
         "path": "skills/scientific/skill-scikit-survival.md"
+      },
+      {
+        "id": "agent-sdd-spec-writer",
+        "name": "sdd-spec-writer",
+        "type": "agent",
+        "path": "agents/development-team/agent-sdd-spec-writer.md"
       },
       {
         "id": "agent-se-gitops-ci-specialist",
@@ -14588,6 +16322,12 @@
         "path": "skills/ai-research/skill-whisper.md"
       },
       {
+        "id": "skill-x-twitter-scraper",
+        "name": "x-twitter-scraper",
+        "type": "skill",
+        "path": "skills/marketing/skill-x-twitter-scraper.md"
+      },
+      {
         "id": "skill-yeet",
         "name": "yeet",
         "type": "skill",
@@ -14734,6 +16474,12 @@
         "path": "skills/creative-design/skill-mermaid-diagrams.md"
       },
       {
+        "id": "skill-playwright-e2e-builder",
+        "name": "playwright-e2e-builder",
+        "type": "skill",
+        "path": "skills/development/skill-playwright-e2e-builder.md"
+      },
+      {
         "id": "skill-render-deploy",
         "name": "render-deploy",
         "type": "skill",
@@ -14838,6 +16584,36 @@
         "path": "commands/marketing/command-linkedin-post-generator.md"
       },
       {
+        "id": "skill-manifest",
+        "name": "Manifest",
+        "type": "skill",
+        "path": "skills/development/skill-manifest.md"
+      },
+      {
+        "id": "skill-pocketbase-collections",
+        "name": "PocketBase Collections",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-collections.md"
+      },
+      {
+        "id": "skill-pocketbase-deploy",
+        "name": "PocketBase Deploy",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-deploy.md"
+      },
+      {
+        "id": "skill-pocketbase-hooks",
+        "name": "PocketBase Hooks",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-hooks.md"
+      },
+      {
+        "id": "skill-pocketbase-migrations",
+        "name": "PocketBase Migrations",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-migrations.md"
+      },
+      {
         "id": "agent-readme",
         "name": "README",
         "type": "agent",
@@ -14862,6 +16638,12 @@
         "path": "commands/testing/command-setup-load-testing.md"
       },
       {
+        "id": "skill-telegram-bot-builder",
+        "name": "Telegram Bot Builder",
+        "type": "skill",
+        "path": "skills/development/skill-telegram-bot-builder.md"
+      },
+      {
         "id": "agent-thinking-beast-mode",
         "name": "Thinking-Beast-Mode",
         "type": "agent",
@@ -14878,6 +16660,12 @@
         "name": "agent-expert",
         "type": "agent",
         "path": "agents/expert-advisors/agent-agent-expert.md"
+      },
+      {
+        "id": "skill-agirails-agent-payments",
+        "name": "agirails-agent-payments",
+        "type": "skill",
+        "path": "skills/development/skill-agirails-agent-payments.md"
       },
       {
         "id": "skill-algorithmic-art",
@@ -14952,6 +16740,12 @@
         "path": "skills/business-marketing/skill-ceo-advisor.md"
       },
       {
+        "id": "skill-claude-api",
+        "name": "claude-api",
+        "type": "skill",
+        "path": "skills/development/skill-claude-api.md"
+      },
+      {
         "id": "skill-cocoindex",
         "name": "cocoindex",
         "type": "skill",
@@ -14968,6 +16762,18 @@
         "name": "code-reviewer",
         "type": "agent",
         "path": "agents/development-tools/agent-code-reviewer.md"
+      },
+      {
+        "id": "agent-codebase-explorer",
+        "name": "codebase-explorer",
+        "type": "agent",
+        "path": "agents/development-tools/agent-codebase-explorer.md"
+      },
+      {
+        "id": "agent-commit-guardian",
+        "name": "commit-guardian",
+        "type": "agent",
+        "path": "agents/git/agent-commit-guardian.md"
       },
       {
         "id": "skill-commit-work",
@@ -15076,6 +16882,12 @@
         "name": "game-changing-features",
         "type": "skill",
         "path": "skills/productivity/skill-game-changing-features.md"
+      },
+      {
+        "id": "skill-gcc",
+        "name": "gcc",
+        "type": "skill",
+        "path": "skills/git/skill-gcc.md"
       },
       {
         "id": "skill-gene-database",
@@ -15300,6 +17112,12 @@
         "path": "agents/development-tools/agent-rootly-incident-responder.md"
       },
       {
+        "id": "skill-rust-cli-builder",
+        "name": "rust-cli-builder",
+        "type": "skill",
+        "path": "skills/development/skill-rust-cli-builder.md"
+      },
+      {
         "id": "agent-rust-gpt-41-beast-mode",
         "name": "rust-gpt-4.1-beast-mode",
         "type": "agent",
@@ -15310,6 +17128,12 @@
         "name": "scroll-experience",
         "type": "skill",
         "path": "skills/creative-design/skill-scroll-experience.md"
+      },
+      {
+        "id": "agent-sdd-spec-writer",
+        "name": "sdd-spec-writer",
+        "type": "agent",
+        "path": "agents/development-team/agent-sdd-spec-writer.md"
       },
       {
         "id": "skill-security-compliance",
@@ -15402,6 +17226,12 @@
         "path": "skills/scientific/skill-shap.md"
       },
       {
+        "id": "skill-skill-creator",
+        "name": "skill-creator",
+        "type": "skill",
+        "path": "skills/development/skill-skill-creator.md"
+      },
+      {
         "id": "skill-skill-judge",
         "name": "skill-judge",
         "type": "skill",
@@ -15430,6 +17260,12 @@
         "name": "technical-content-evaluator",
         "type": "agent",
         "path": "agents/programming-languages/agent-technical-content-evaluator.md"
+      },
+      {
+        "id": "skill-test-detect",
+        "name": "test-detect",
+        "type": "skill",
+        "path": "skills/development/skill-test-detect.md"
       },
       {
         "id": "agent-test-runner",
@@ -15570,6 +17406,12 @@
         "name": "code-reviewer",
         "type": "skill",
         "path": "skills/development/skill-code-reviewer.md"
+      },
+      {
+        "id": "agent-codebase-explorer",
+        "name": "codebase-explorer",
+        "type": "agent",
+        "path": "agents/development-tools/agent-codebase-explorer.md"
       },
       {
         "id": "agent-django-developer",
@@ -16014,6 +17856,12 @@
         "path": "skills/creative-design/skill-c4-architecture.md"
       },
       {
+        "id": "skill-claude-api",
+        "name": "claude-api",
+        "type": "skill",
+        "path": "skills/development/skill-claude-api.md"
+      },
+      {
         "id": "agent-code-reviewer",
         "name": "code-reviewer",
         "type": "agent",
@@ -16120,6 +17968,12 @@
         "name": "rust-engineer",
         "type": "agent",
         "path": "agents/programming-languages/agent-rust-engineer.md"
+      },
+      {
+        "id": "agent-sdd-spec-writer",
+        "name": "sdd-spec-writer",
+        "type": "agent",
+        "path": "agents/development-team/agent-sdd-spec-writer.md"
       },
       {
         "id": "skill-slack-bot-builder",
@@ -16364,6 +18218,18 @@
         "path": "commands/performance/command-optimize-build-command.md"
       },
       {
+        "id": "skill-pocketbase-hooks",
+        "name": "PocketBase Hooks",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-hooks.md"
+      },
+      {
+        "id": "skill-pocketbase-sdk",
+        "name": "PocketBase SDK",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-sdk.md"
+      },
+      {
         "id": "agent-readme",
         "name": "README",
         "type": "agent",
@@ -16392,6 +18258,12 @@
         "name": "Sync Status Monitor",
         "type": "command",
         "path": "commands/sync/command-sync-status-monitor.md"
+      },
+      {
+        "id": "skill-telegram-bot-builder",
+        "name": "Telegram Bot Builder",
+        "type": "skill",
+        "path": "skills/development/skill-telegram-bot-builder.md"
       },
       {
         "id": "skill-top-100-web-vulnerabilities-reference",
@@ -16440,6 +18312,12 @@
         "name": "agent-expert",
         "type": "agent",
         "path": "agents/expert-advisors/agent-agent-expert.md"
+      },
+      {
+        "id": "skill-agirails-agent-payments",
+        "name": "agirails-agent-payments",
+        "type": "skill",
+        "path": "skills/development/skill-agirails-agent-payments.md"
       },
       {
         "id": "skill-ai-agents-architect",
@@ -16520,6 +18398,18 @@
         "path": "skills/development/skill-best-practices.md"
       },
       {
+        "id": "skill-bright-data-best-practices",
+        "name": "bright-data-best-practices",
+        "type": "skill",
+        "path": "skills/web-data/skill-bright-data-best-practices.md"
+      },
+      {
+        "id": "skill-bright-data-mcp",
+        "name": "bright-data-mcp",
+        "type": "skill",
+        "path": "skills/web-data/skill-bright-data-mcp.md"
+      },
+      {
         "id": "skill-browser-extension-builder",
         "name": "browser-extension-builder",
         "type": "skill",
@@ -16530,6 +18420,12 @@
         "name": "bun-development",
         "type": "skill",
         "path": "skills/development/skill-bun-development.md"
+      },
+      {
+        "id": "skill-cf-crawl",
+        "name": "cf-crawl",
+        "type": "skill",
+        "path": "skills/utilities/skill-cf-crawl.md"
       },
       {
         "id": "skill-chroma",
@@ -16958,6 +18854,12 @@
         "path": "agents/business-marketing/agent-salesforce-expert.md"
       },
       {
+        "id": "skill-scrape",
+        "name": "scrape",
+        "type": "skill",
+        "path": "skills/web-data/skill-scrape.md"
+      },
+      {
         "id": "skill-scroll-experience",
         "name": "scroll-experience",
         "type": "skill",
@@ -17172,6 +19074,12 @@
         "name": "writing-skills",
         "type": "skill",
         "path": "skills/development/skill-writing-skills.md"
+      },
+      {
+        "id": "skill-x-twitter-scraper",
+        "name": "x-twitter-scraper",
+        "type": "skill",
+        "path": "skills/marketing/skill-x-twitter-scraper.md"
       }
     ],
     "k8s": [
@@ -17228,6 +19136,12 @@
         "name": "code-reviewer",
         "type": "skill",
         "path": "skills/development/skill-code-reviewer.md"
+      },
+      {
+        "id": "agent-codebase-explorer",
+        "name": "codebase-explorer",
+        "type": "agent",
+        "path": "agents/development-tools/agent-codebase-explorer.md"
       },
       {
         "id": "agent-deployment-engineer",
@@ -19008,6 +20922,12 @@
         "name": "brenda-database",
         "type": "skill",
         "path": "skills/scientific/skill-brenda-database.md"
+      },
+      {
+        "id": "skill-bright-data-best-practices",
+        "name": "bright-data-best-practices",
+        "type": "skill",
+        "path": "skills/web-data/skill-bright-data-best-practices.md"
       },
       {
         "id": "agent-build-engineer",
@@ -20792,6 +22712,12 @@
         "path": "skills/scientific/skill-simpy.md"
       },
       {
+        "id": "skill-skill-creator",
+        "name": "skill-creator",
+        "type": "skill",
+        "path": "skills/development/skill-skill-creator.md"
+      },
+      {
         "id": "skill-skypilot-multi-cloud-orchestration",
         "name": "skypilot-multi-cloud-orchestration",
         "type": "skill",
@@ -21550,6 +23476,12 @@
         "path": "commands/git/command-git-flow-status.md"
       },
       {
+        "id": "command-google-workspace-admin",
+        "name": "Google Workspace Admin",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-admin.md"
+      },
+      {
         "id": "skill-hook-development",
         "name": "Hook Development",
         "type": "skill",
@@ -21614,6 +23546,12 @@
         "name": "MCP Integration",
         "type": "skill",
         "path": "skills/development/skill-mcp-integration.md"
+      },
+      {
+        "id": "skill-manifest",
+        "name": "Manifest",
+        "type": "skill",
+        "path": "skills/development/skill-manifest.md"
       },
       {
         "id": "command-market-response-modeler",
@@ -21716,6 +23654,18 @@
         "name": "Plugin Structure",
         "type": "skill",
         "path": "skills/development/skill-plugin-structure.md"
+      },
+      {
+        "id": "skill-pocketbase-collections",
+        "name": "PocketBase Collections",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-collections.md"
+      },
+      {
+        "id": "skill-pocketbase-sdk",
+        "name": "PocketBase SDK",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-sdk.md"
       },
       {
         "id": "command-project-health-check",
@@ -21956,6 +23906,12 @@
         "name": "Team Workload Balancer",
         "type": "command",
         "path": "commands/team/command-team-workload-balancer.md"
+      },
+      {
+        "id": "skill-telegram-bot-builder",
+        "name": "Telegram Bot Builder",
+        "type": "skill",
+        "path": "skills/development/skill-telegram-bot-builder.md"
       },
       {
         "id": "command-test-automation-orchestrator",
@@ -22294,6 +24250,12 @@
         "path": "skills/scientific/skill-brenda-database.md"
       },
       {
+        "id": "skill-bright-data-mcp",
+        "name": "bright-data-mcp",
+        "type": "skill",
+        "path": "skills/web-data/skill-bright-data-mcp.md"
+      },
+      {
         "id": "agent-build-engineer",
         "name": "build-engineer",
         "type": "agent",
@@ -22472,6 +24434,12 @@
         "name": "commit",
         "type": "skill",
         "path": "skills/sentry/skill-commit.md"
+      },
+      {
+        "id": "skill-commit-smart",
+        "name": "commit-smart",
+        "type": "skill",
+        "path": "skills/git/skill-commit-smart.md"
       },
       {
         "id": "skill-competitive-ads-extractor",
@@ -23090,6 +25058,12 @@
         "name": "github-workflow-automation",
         "type": "skill",
         "path": "skills/development/skill-github-workflow-automation.md"
+      },
+      {
+        "id": "skill-gmod-addon-maker",
+        "name": "gmod-addon-maker",
+        "type": "skill",
+        "path": "skills/gmod-addon-maker/skill-gmod-addon-maker.md"
       },
       {
         "id": "agent-go-mcp-expert",
@@ -25502,6 +27476,12 @@
         "path": "commands/utilities/command-system-cache-cleanup.md"
       },
       {
+        "id": "skill-telegram-bot-builder",
+        "name": "Telegram Bot Builder",
+        "type": "skill",
+        "path": "skills/development/skill-telegram-bot-builder.md"
+      },
+      {
         "id": "skill-windows-privilege-escalation",
         "name": "Windows Privilege Escalation",
         "type": "skill",
@@ -25548,6 +27528,12 @@
         "name": "agile-product-owner",
         "type": "skill",
         "path": "skills/business-marketing/skill-agile-product-owner.md"
+      },
+      {
+        "id": "skill-agirails-agent-payments",
+        "name": "agirails-agent-payments",
+        "type": "skill",
+        "path": "skills/development/skill-agirails-agent-payments.md"
       },
       {
         "id": "agent-ai-ethics-advisor",
@@ -25730,6 +27716,12 @@
         "path": "skills/scientific/skill-brenda-database.md"
       },
       {
+        "id": "skill-bright-data-best-practices",
+        "name": "bright-data-best-practices",
+        "type": "skill",
+        "path": "skills/web-data/skill-bright-data-best-practices.md"
+      },
+      {
         "id": "skill-cc-skill-project-guidelines-example",
         "name": "cc-skill-project-guidelines-example",
         "type": "skill",
@@ -25764,6 +27756,12 @@
         "name": "cirq",
         "type": "skill",
         "path": "skills/scientific/skill-cirq.md"
+      },
+      {
+        "id": "skill-claude-api",
+        "name": "claude-api",
+        "type": "skill",
+        "path": "skills/development/skill-claude-api.md"
       },
       {
         "id": "skill-claude-opus-4-5-migration",
@@ -25836,6 +27834,12 @@
         "name": "comet-opik",
         "type": "agent",
         "path": "agents/security/agent-comet-opik.md"
+      },
+      {
+        "id": "agent-commit-guardian",
+        "name": "commit-guardian",
+        "type": "agent",
+        "path": "agents/git/agent-commit-guardian.md"
       },
       {
         "id": "agent-competitive-intelligence-analyst",
@@ -26142,6 +28146,18 @@
         "name": "faiss",
         "type": "skill",
         "path": "skills/ai-research/skill-faiss.md"
+      },
+      {
+        "id": "skill-fastapi-endpoint",
+        "name": "fastapi-endpoint",
+        "type": "skill",
+        "path": "skills/web-development/skill-fastapi-endpoint.md"
+      },
+      {
+        "id": "skill-fastmcp-server",
+        "name": "fastmcp-server",
+        "type": "skill",
+        "path": "skills/development/skill-fastmcp-server.md"
       },
       {
         "id": "skill-fda-database",
@@ -27116,6 +29132,12 @@
         "path": "skills/scientific/skill-scvi-tools.md"
       },
       {
+        "id": "agent-sdd-spec-writer",
+        "name": "sdd-spec-writer",
+        "type": "agent",
+        "path": "agents/development-team/agent-sdd-spec-writer.md"
+      },
+      {
         "id": "agent-se-responsible-ai-code",
         "name": "se-responsible-ai-code",
         "type": "agent",
@@ -27474,6 +29496,12 @@
         "name": "tensorrt-llm",
         "type": "skill",
         "path": "skills/ai-research/skill-tensorrt-llm.md"
+      },
+      {
+        "id": "skill-test-detect",
+        "name": "test-detect",
+        "type": "skill",
+        "path": "skills/development/skill-test-detect.md"
       },
       {
         "id": "skill-torch-geometric",
@@ -28338,6 +30366,12 @@
         "path": "agents/development-tools/agent-code-simplifier.md"
       },
       {
+        "id": "agent-codebase-explorer",
+        "name": "codebase-explorer",
+        "type": "agent",
+        "path": "agents/development-tools/agent-codebase-explorer.md"
+      },
+      {
         "id": "skill-coding-standards",
         "name": "coding-standards",
         "type": "skill",
@@ -28392,16 +30426,34 @@
         "path": "skills/development/skill-dependency-updater.md"
       },
       {
+        "id": "skill-design-mirror",
+        "name": "design-mirror",
+        "type": "skill",
+        "path": "skills/web-data/skill-design-mirror.md"
+      },
+      {
         "id": "skill-design-system-starter",
         "name": "design-system-starter",
         "type": "skill",
         "path": "skills/development/skill-design-system-starter.md"
       },
       {
+        "id": "skill-design-to-code",
+        "name": "design-to-code",
+        "type": "skill",
+        "path": "skills/design-to-code/skill-design-to-code.md"
+      },
+      {
         "id": "skill-developer-growth-analysis",
         "name": "developer-growth-analysis",
         "type": "skill",
         "path": "skills/development/skill-developer-growth-analysis.md"
+      },
+      {
+        "id": "skill-docs-search",
+        "name": "docs-search",
+        "type": "skill",
+        "path": "skills/ai-maestro/skill-docs-search.md"
       },
       {
         "id": "agent-droid",
@@ -28674,6 +30726,12 @@
         "path": "skills/productivity/skill-plan-writing.md"
       },
       {
+        "id": "skill-playwright-e2e-builder",
+        "name": "playwright-e2e-builder",
+        "type": "skill",
+        "path": "skills/development/skill-playwright-e2e-builder.md"
+      },
+      {
         "id": "skill-plugin-forge",
         "name": "plugin-forge",
         "type": "skill",
@@ -28788,6 +30846,12 @@
         "path": "skills/web-development/skill-roier-seo.md"
       },
       {
+        "id": "skill-rust-cli-builder",
+        "name": "rust-cli-builder",
+        "type": "skill",
+        "path": "skills/development/skill-rust-cli-builder.md"
+      },
+      {
         "id": "skill-schema-markup",
         "name": "schema-markup",
         "type": "skill",
@@ -28882,12 +30946,6 @@
         "name": "skill-creator",
         "type": "skill",
         "path": "skills/productivity/skill-skill-creator.md"
-      },
-      {
-        "id": "skill-skill-creator",
-        "name": "skill-creator",
-        "type": "skill",
-        "path": "skills/development/skill-skill-creator.md"
       },
       {
         "id": "skill-skill-developer",
@@ -29054,6 +31112,24 @@
         "path": "commands/setup/command-design-rest-api.md"
       },
       {
+        "id": "command-google-workspace-admin",
+        "name": "Google Workspace Admin",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-admin.md"
+      },
+      {
+        "id": "command-google-workspace-drive",
+        "name": "Google Workspace Drive",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-drive.md"
+      },
+      {
+        "id": "command-google-workspace-keep",
+        "name": "Google Workspace Keep",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-keep.md"
+      },
+      {
         "id": "skill-mcp-integration",
         "name": "MCP Integration",
         "type": "skill",
@@ -29070,6 +31146,18 @@
         "name": "Plugin Settings",
         "type": "skill",
         "path": "skills/development/skill-plugin-settings.md"
+      },
+      {
+        "id": "skill-pocketbase-deploy",
+        "name": "PocketBase Deploy",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-deploy.md"
+      },
+      {
+        "id": "skill-pocketbase-hooks",
+        "name": "PocketBase Hooks",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-hooks.md"
       },
       {
         "id": "agent-readme",
@@ -29112,6 +31200,12 @@
         "name": "WordPress Penetration Testing",
         "type": "skill",
         "path": "skills/security/skill-wordpress-penetration-testing.md"
+      },
+      {
+        "id": "skill-agent-management",
+        "name": "agent-management",
+        "type": "skill",
+        "path": "skills/ai-maestro/skill-agent-management.md"
       },
       {
         "id": "skill-agent-md-refactor",
@@ -29222,10 +31316,28 @@
         "path": "skills/scientific/skill-bioservices.md"
       },
       {
+        "id": "skill-bright-data-best-practices",
+        "name": "bright-data-best-practices",
+        "type": "skill",
+        "path": "skills/web-data/skill-bright-data-best-practices.md"
+      },
+      {
         "id": "skill-c4-architecture",
         "name": "c4-architecture",
         "type": "skill",
         "path": "skills/creative-design/skill-c4-architecture.md"
+      },
+      {
+        "id": "skill-cf-crawl",
+        "name": "cf-crawl",
+        "type": "skill",
+        "path": "skills/utilities/skill-cf-crawl.md"
+      },
+      {
+        "id": "skill-claude-api",
+        "name": "claude-api",
+        "type": "skill",
+        "path": "skills/development/skill-claude-api.md"
       },
       {
         "id": "skill-clinpgx-database",
@@ -29244,6 +31356,12 @@
         "name": "code-reviewer",
         "type": "skill",
         "path": "skills/development/skill-code-reviewer.md"
+      },
+      {
+        "id": "agent-codebase-explorer",
+        "name": "codebase-explorer",
+        "type": "agent",
+        "path": "agents/development-tools/agent-codebase-explorer.md"
       },
       {
         "id": "skill-coding-standards",
@@ -29702,6 +31820,12 @@
         "path": "agents/api-graphql/agent-shopify-expert.md"
       },
       {
+        "id": "skill-skill-creator",
+        "name": "skill-creator",
+        "type": "skill",
+        "path": "skills/development/skill-skill-creator.md"
+      },
+      {
         "id": "skill-social-content",
         "name": "social-content",
         "type": "skill",
@@ -29772,6 +31896,12 @@
         "name": "wordpress-master",
         "type": "agent",
         "path": "agents/web-tools/agent-wordpress-master.md"
+      },
+      {
+        "id": "skill-x-twitter-scraper",
+        "name": "x-twitter-scraper",
+        "type": "skill",
+        "path": "skills/marketing/skill-x-twitter-scraper.md"
       }
     ],
     "rust": [
@@ -29830,10 +31960,28 @@
         "path": "skills/ai-research/skill-chroma.md"
       },
       {
+        "id": "skill-claude-api",
+        "name": "claude-api",
+        "type": "skill",
+        "path": "skills/development/skill-claude-api.md"
+      },
+      {
         "id": "agent-code-reviewer",
         "name": "code-reviewer",
         "type": "agent",
         "path": "agents/development-tools/agent-code-reviewer.md"
+      },
+      {
+        "id": "agent-codebase-explorer",
+        "name": "codebase-explorer",
+        "type": "agent",
+        "path": "agents/development-tools/agent-codebase-explorer.md"
+      },
+      {
+        "id": "agent-commit-guardian",
+        "name": "commit-guardian",
+        "type": "agent",
+        "path": "agents/git/agent-commit-guardian.md"
       },
       {
         "id": "agent-context7",
@@ -29944,6 +32092,12 @@
         "path": "skills/ai-research/skill-research-engineer.md"
       },
       {
+        "id": "skill-rust-cli-builder",
+        "name": "rust-cli-builder",
+        "type": "skill",
+        "path": "skills/development/skill-rust-cli-builder.md"
+      },
+      {
         "id": "agent-rust-engineer",
         "name": "rust-engineer",
         "type": "agent",
@@ -29968,6 +32122,12 @@
         "path": "agents/programming-languages/agent-rust-pro.md"
       },
       {
+        "id": "agent-sdd-spec-writer",
+        "name": "sdd-spec-writer",
+        "type": "agent",
+        "path": "agents/development-team/agent-sdd-spec-writer.md"
+      },
+      {
         "id": "skill-sora",
         "name": "sora",
         "type": "skill",
@@ -29984,6 +32144,12 @@
         "name": "tailwind-patterns",
         "type": "skill",
         "path": "skills/creative-design/skill-tailwind-patterns.md"
+      },
+      {
+        "id": "skill-test-detect",
+        "name": "test-detect",
+        "type": "skill",
+        "path": "skills/development/skill-test-detect.md"
       },
       {
         "id": "agent-typescript-pro",
@@ -30264,6 +32430,288 @@
         "path": "commands/git/command-git-flow-status.md"
       },
       {
+        "id": "command-google-workspace-admin",
+        "name": "Google Workspace Admin",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-admin.md"
+      },
+      {
+        "id": "command-google-workspace-admin-reports",
+        "name": "Google Workspace Admin Reports",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-admin-reports.md"
+      },
+      {
+        "id": "command-google-workspace-alertcenter",
+        "name": "Google Workspace Alertcenter",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-alertcenter.md"
+      },
+      {
+        "id": "command-google-workspace-apps-script",
+        "name": "Google Workspace Apps Script",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-apps-script.md"
+      },
+      {
+        "id": "command-google-workspace-apps-script-push",
+        "name": "Google Workspace Apps Script Push",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-apps-script-push.md"
+      },
+      {
+        "id": "command-google-workspace-calendar",
+        "name": "Google Workspace Calendar",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-calendar.md"
+      },
+      {
+        "id": "command-google-workspace-calendar-agenda",
+        "name": "Google Workspace Calendar Agenda",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-calendar-agenda.md"
+      },
+      {
+        "id": "command-google-workspace-calendar-insert",
+        "name": "Google Workspace Calendar Insert",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-calendar-insert.md"
+      },
+      {
+        "id": "command-google-workspace-chat",
+        "name": "Google Workspace Chat",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-chat.md"
+      },
+      {
+        "id": "command-google-workspace-chat-send",
+        "name": "Google Workspace Chat Send",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-chat-send.md"
+      },
+      {
+        "id": "command-google-workspace-classroom",
+        "name": "Google Workspace Classroom",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-classroom.md"
+      },
+      {
+        "id": "command-google-workspace-cloudidentity",
+        "name": "Google Workspace Cloudidentity",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-cloudidentity.md"
+      },
+      {
+        "id": "command-google-workspace-docs",
+        "name": "Google Workspace Docs",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-docs.md"
+      },
+      {
+        "id": "command-google-workspace-docs-write",
+        "name": "Google Workspace Docs Write",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-docs-write.md"
+      },
+      {
+        "id": "command-google-workspace-drive",
+        "name": "Google Workspace Drive",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-drive.md"
+      },
+      {
+        "id": "command-google-workspace-drive-upload",
+        "name": "Google Workspace Drive Upload",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-drive-upload.md"
+      },
+      {
+        "id": "command-google-workspace-events",
+        "name": "Google Workspace Events",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-events.md"
+      },
+      {
+        "id": "command-google-workspace-events-renew",
+        "name": "Google Workspace Events Renew",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-events-renew.md"
+      },
+      {
+        "id": "command-google-workspace-events-subscribe",
+        "name": "Google Workspace Events Subscribe",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-events-subscribe.md"
+      },
+      {
+        "id": "command-google-workspace-forms",
+        "name": "Google Workspace Forms",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-forms.md"
+      },
+      {
+        "id": "command-google-workspace-gmail",
+        "name": "Google Workspace Gmail",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-gmail.md"
+      },
+      {
+        "id": "command-google-workspace-gmail-send",
+        "name": "Google Workspace Gmail Send",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-gmail-send.md"
+      },
+      {
+        "id": "command-google-workspace-gmail-triage",
+        "name": "Google Workspace Gmail Triage",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-gmail-triage.md"
+      },
+      {
+        "id": "command-google-workspace-gmail-watch",
+        "name": "Google Workspace Gmail Watch",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-gmail-watch.md"
+      },
+      {
+        "id": "command-google-workspace-groupssettings",
+        "name": "Google Workspace Groupssettings",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-groupssettings.md"
+      },
+      {
+        "id": "command-google-workspace-keep",
+        "name": "Google Workspace Keep",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-keep.md"
+      },
+      {
+        "id": "command-google-workspace-licensing",
+        "name": "Google Workspace Licensing",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-licensing.md"
+      },
+      {
+        "id": "command-google-workspace-meet",
+        "name": "Google Workspace Meet",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-meet.md"
+      },
+      {
+        "id": "command-google-workspace-modelarmor",
+        "name": "Google Workspace Modelarmor",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-modelarmor.md"
+      },
+      {
+        "id": "command-google-workspace-modelarmor-create-template",
+        "name": "Google Workspace Modelarmor Create Template",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-modelarmor-create-template.md"
+      },
+      {
+        "id": "command-google-workspace-modelarmor-sanitize-prompt",
+        "name": "Google Workspace Modelarmor Sanitize Prompt",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-modelarmor-sanitize-prompt.md"
+      },
+      {
+        "id": "command-google-workspace-modelarmor-sanitize-response",
+        "name": "Google Workspace Modelarmor Sanitize Response",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-modelarmor-sanitize-response.md"
+      },
+      {
+        "id": "command-google-workspace-people",
+        "name": "Google Workspace People",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-people.md"
+      },
+      {
+        "id": "command-google-workspace-reseller",
+        "name": "Google Workspace Reseller",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-reseller.md"
+      },
+      {
+        "id": "command-google-workspace-shared",
+        "name": "Google Workspace Shared",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-shared.md"
+      },
+      {
+        "id": "command-google-workspace-sheets",
+        "name": "Google Workspace Sheets",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-sheets.md"
+      },
+      {
+        "id": "command-google-workspace-sheets-append",
+        "name": "Google Workspace Sheets Append",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-sheets-append.md"
+      },
+      {
+        "id": "command-google-workspace-sheets-read",
+        "name": "Google Workspace Sheets Read",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-sheets-read.md"
+      },
+      {
+        "id": "command-google-workspace-slides",
+        "name": "Google Workspace Slides",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-slides.md"
+      },
+      {
+        "id": "command-google-workspace-tasks",
+        "name": "Google Workspace Tasks",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-tasks.md"
+      },
+      {
+        "id": "command-google-workspace-vault",
+        "name": "Google Workspace Vault",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-vault.md"
+      },
+      {
+        "id": "command-google-workspace-workflow",
+        "name": "Google Workspace Workflow",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-workflow.md"
+      },
+      {
+        "id": "command-google-workspace-workflow-email-to-task",
+        "name": "Google Workspace Workflow Email To Task",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-workflow-email-to-task.md"
+      },
+      {
+        "id": "command-google-workspace-workflow-file-announce",
+        "name": "Google Workspace Workflow File Announce",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-workflow-file-announce.md"
+      },
+      {
+        "id": "command-google-workspace-workflow-meeting-prep",
+        "name": "Google Workspace Workflow Meeting Prep",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-workflow-meeting-prep.md"
+      },
+      {
+        "id": "command-google-workspace-workflow-standup-report",
+        "name": "Google Workspace Workflow Standup Report",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-workflow-standup-report.md"
+      },
+      {
+        "id": "command-google-workspace-workflow-weekly-digest",
+        "name": "Google Workspace Workflow Weekly Digest",
+        "type": "command",
+        "path": "commands/google-workspace/command-google-workspace-workflow-weekly-digest.md"
+      },
+      {
         "id": "skill-html-injection-testing",
         "name": "HTML Injection Testing",
         "type": "skill",
@@ -30316,6 +32764,12 @@
         "name": "Interactive Documentation Platform",
         "type": "command",
         "path": "commands/documentation/command-interactive-documentation-platform.md"
+      },
+      {
+        "id": "command-it-admin-persona",
+        "name": "It Admin Persona",
+        "type": "command",
+        "path": "commands/google-workspace/command-it-admin-persona.md"
       },
       {
         "id": "command-kubernetes-deployment-configuration",
@@ -30436,6 +32890,18 @@
         "name": "Plugin Settings",
         "type": "skill",
         "path": "skills/development/skill-plugin-settings.md"
+      },
+      {
+        "id": "skill-pocketbase-deploy",
+        "name": "PocketBase Deploy",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-deploy.md"
+      },
+      {
+        "id": "skill-pocketbase-hooks",
+        "name": "PocketBase Hooks",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-hooks.md"
       },
       {
         "id": "command-project-health-check",
@@ -30594,6 +33060,12 @@
         "path": "commands/orchestration/command-task-status-command.md"
       },
       {
+        "id": "skill-telegram-bot-builder",
+        "name": "Telegram Bot Builder",
+        "type": "skill",
+        "path": "skills/development/skill-telegram-bot-builder.md"
+      },
+      {
         "id": "agent-thinking-beast-mode",
         "name": "Thinking-Beast-Mode",
         "type": "agent",
@@ -30604,6 +33076,12 @@
         "name": "Top 100 Web Vulnerabilities Reference",
         "type": "skill",
         "path": "skills/security/skill-top-100-web-vulnerabilities-reference.md"
+      },
+      {
+        "id": "command-triage-security-alerts",
+        "name": "Triage Security Alerts",
+        "type": "command",
+        "path": "commands/google-workspace/command-triage-security-alerts.md"
       },
       {
         "id": "command-troubleshooting-guide-generator",
@@ -30682,6 +33160,18 @@
         "name": "agent-md-refactor",
         "type": "skill",
         "path": "skills/development/skill-agent-md-refactor.md"
+      },
+      {
+        "id": "skill-agent-messaging",
+        "name": "agent-messaging",
+        "type": "skill",
+        "path": "skills/ai-maestro/skill-agent-messaging.md"
+      },
+      {
+        "id": "skill-agirails-agent-payments",
+        "name": "agirails-agent-payments",
+        "type": "skill",
+        "path": "skills/development/skill-agirails-agent-payments.md"
       },
       {
         "id": "agent-ai-engineer",
@@ -30936,6 +33426,18 @@
         "path": "agents/development-tools/agent-command-expert.md"
       },
       {
+        "id": "agent-commit-guardian",
+        "name": "commit-guardian",
+        "type": "agent",
+        "path": "agents/git/agent-commit-guardian.md"
+      },
+      {
+        "id": "skill-commit-smart",
+        "name": "commit-smart",
+        "type": "skill",
+        "path": "skills/git/skill-commit-smart.md"
+      },
+      {
         "id": "skill-competitive-ads-extractor",
         "name": "competitive-ads-extractor",
         "type": "skill",
@@ -31182,6 +33684,18 @@
         "path": "agents/expert-advisors/agent-expert-dotnet-software-engineer.md"
       },
       {
+        "id": "skill-fastapi-endpoint",
+        "name": "fastapi-endpoint",
+        "type": "skill",
+        "path": "skills/web-development/skill-fastapi-endpoint.md"
+      },
+      {
+        "id": "skill-fastmcp-server",
+        "name": "fastmcp-server",
+        "type": "skill",
+        "path": "skills/development/skill-fastmcp-server.md"
+      },
+      {
         "id": "skill-fda-consultant-specialist",
         "name": "fda-consultant-specialist",
         "type": "skill",
@@ -31228,6 +33742,12 @@
         "name": "flutter-go-reviewer",
         "type": "agent",
         "path": "agents/development-tools/agent-flutter-go-reviewer.md"
+      },
+      {
+        "id": "skill-footballbin-predictions",
+        "name": "footballbin-predictions",
+        "type": "skill",
+        "path": "skills/sports/skill-footballbin-predictions.md"
       },
       {
         "id": "skill-form-cro",
@@ -32148,6 +34668,12 @@
         "path": "skills/business-marketing/skill-signup-flow-cro.md"
       },
       {
+        "id": "skill-skill-creator",
+        "name": "skill-creator",
+        "type": "skill",
+        "path": "skills/development/skill-skill-creator.md"
+      },
+      {
         "id": "skill-skill-developer",
         "name": "skill-developer",
         "type": "skill",
@@ -32498,6 +35024,24 @@
         "path": "skills/development/skill-plugin-structure.md"
       },
       {
+        "id": "skill-pocketbase-collections",
+        "name": "PocketBase Collections",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-collections.md"
+      },
+      {
+        "id": "skill-pocketbase-hooks",
+        "name": "PocketBase Hooks",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-hooks.md"
+      },
+      {
+        "id": "skill-pocketbase-migrations",
+        "name": "PocketBase Migrations",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-migrations.md"
+      },
+      {
         "id": "agent-readme",
         "name": "README",
         "type": "agent",
@@ -32660,6 +35204,12 @@
         "path": "agents/development-tools/agent-code-reviewer.md"
       },
       {
+        "id": "agent-codebase-explorer",
+        "name": "codebase-explorer",
+        "type": "agent",
+        "path": "agents/development-tools/agent-codebase-explorer.md"
+      },
+      {
         "id": "agent-data-analyst",
         "name": "data-analyst",
         "type": "agent",
@@ -32736,6 +35286,12 @@
         "name": "drupal-expert",
         "type": "agent",
         "path": "agents/expert-advisors/agent-drupal-expert.md"
+      },
+      {
+        "id": "skill-fastapi-endpoint",
+        "name": "fastapi-endpoint",
+        "type": "skill",
+        "path": "skills/web-development/skill-fastapi-endpoint.md"
       },
       {
         "id": "skill-find-bugs",
@@ -32904,6 +35460,12 @@
         "name": "php-pro",
         "type": "agent",
         "path": "agents/programming-languages/agent-php-pro.md"
+      },
+      {
+        "id": "skill-playwright-e2e-builder",
+        "name": "playwright-e2e-builder",
+        "type": "skill",
+        "path": "skills/development/skill-playwright-e2e-builder.md"
       },
       {
         "id": "agent-postgresql-dba",
@@ -33158,6 +35720,12 @@
         "name": "Web Design Reviewer",
         "type": "command",
         "path": "commands/design/command-web-design-reviewer.md"
+      },
+      {
+        "id": "agent-codebase-explorer",
+        "name": "codebase-explorer",
+        "type": "agent",
+        "path": "agents/development-tools/agent-codebase-explorer.md"
       },
       {
         "id": "agent-context7",
@@ -33846,6 +36414,30 @@
         "path": "skills/development/skill-plugin-structure.md"
       },
       {
+        "id": "skill-pocketbase-api-rules",
+        "name": "PocketBase API Rules",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-api-rules.md"
+      },
+      {
+        "id": "skill-pocketbase-deploy",
+        "name": "PocketBase Deploy",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-deploy.md"
+      },
+      {
+        "id": "skill-pocketbase-hooks",
+        "name": "PocketBase Hooks",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-hooks.md"
+      },
+      {
+        "id": "skill-pocketbase-migrations",
+        "name": "PocketBase Migrations",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-migrations.md"
+      },
+      {
         "id": "skill-privilege-escalation-methods",
         "name": "Privilege Escalation Methods",
         "type": "skill",
@@ -34188,6 +36780,12 @@
         "path": "skills/ai-research/skill-agent-memory-systems.md"
       },
       {
+        "id": "skill-agirails-agent-payments",
+        "name": "agirails-agent-payments",
+        "type": "skill",
+        "path": "skills/development/skill-agirails-agent-payments.md"
+      },
+      {
         "id": "agent-ai-engineer",
         "name": "ai-engineer",
         "type": "agent",
@@ -34344,6 +36942,12 @@
         "path": "agents/data-ai/agent-blueprint-mode-codex.md"
       },
       {
+        "id": "skill-bright-data-best-practices",
+        "name": "bright-data-best-practices",
+        "type": "skill",
+        "path": "skills/web-data/skill-bright-data-best-practices.md"
+      },
+      {
         "id": "skill-browser-automation",
         "name": "browser-automation",
         "type": "skill",
@@ -34470,6 +37074,12 @@
         "path": "agents/data-ai/agent-code-tour.md"
       },
       {
+        "id": "agent-codebase-explorer",
+        "name": "codebase-explorer",
+        "type": "agent",
+        "path": "agents/development-tools/agent-codebase-explorer.md"
+      },
+      {
         "id": "agent-codebase-pattern-finder",
         "name": "codebase-pattern-finder",
         "type": "agent",
@@ -34504,6 +37114,18 @@
         "name": "commit",
         "type": "skill",
         "path": "skills/sentry/skill-commit.md"
+      },
+      {
+        "id": "agent-commit-guardian",
+        "name": "commit-guardian",
+        "type": "agent",
+        "path": "agents/git/agent-commit-guardian.md"
+      },
+      {
+        "id": "skill-commit-smart",
+        "name": "commit-smart",
+        "type": "skill",
+        "path": "skills/git/skill-commit-smart.md"
       },
       {
         "id": "skill-competitive-ads-extractor",
@@ -34680,6 +37302,12 @@
         "path": "skills/scientific/skill-datamol.md"
       },
       {
+        "id": "skill-deadline-prep",
+        "name": "deadline-prep",
+        "type": "skill",
+        "path": "skills/productivity/skill-deadline-prep.md"
+      },
+      {
         "id": "agent-debug",
         "name": "debug",
         "type": "agent",
@@ -34842,12 +37470,6 @@
         "path": "skills/scientific/skill-docx.md"
       },
       {
-        "id": "skill-docx",
-        "name": "docx",
-        "type": "skill",
-        "path": "skills/document-processing/skill-docx.md"
-      },
-      {
         "id": "skill-domain-name-brainstormer",
         "name": "domain-name-brainstormer",
         "type": "skill",
@@ -34972,6 +37594,12 @@
         "name": "expert-react-frontend-engineer",
         "type": "agent",
         "path": "agents/web-tools/agent-expert-react-frontend-engineer.md"
+      },
+      {
+        "id": "skill-fastapi-endpoint",
+        "name": "fastapi-endpoint",
+        "type": "skill",
+        "path": "skills/web-development/skill-fastapi-endpoint.md"
       },
       {
         "id": "skill-fda-database",
@@ -35110,6 +37738,12 @@
         "name": "github-workflow-automation",
         "type": "skill",
         "path": "skills/development/skill-github-workflow-automation.md"
+      },
+      {
+        "id": "skill-gmod-addon-maker",
+        "name": "gmod-addon-maker",
+        "type": "skill",
+        "path": "skills/gmod-addon-maker/skill-gmod-addon-maker.md"
       },
       {
         "id": "agent-go-mcp-expert",
@@ -35772,6 +38406,12 @@
         "path": "skills/productivity/skill-plan-writing.md"
       },
       {
+        "id": "skill-planning",
+        "name": "planning",
+        "type": "skill",
+        "path": "skills/ai-maestro/skill-planning.md"
+      },
+      {
         "id": "agent-platform-sre-kubernetes",
         "name": "platform-sre-kubernetes",
         "type": "agent",
@@ -35782,6 +38422,12 @@
         "name": "playwright",
         "type": "skill",
         "path": "skills/development/skill-playwright.md"
+      },
+      {
+        "id": "skill-playwright-e2e-builder",
+        "name": "playwright-e2e-builder",
+        "type": "skill",
+        "path": "skills/development/skill-playwright-e2e-builder.md"
       },
       {
         "id": "skill-playwright-skill",
@@ -36108,6 +38754,12 @@
         "path": "agents/programming-languages/agent-ruby-mcp-expert.md"
       },
       {
+        "id": "skill-rust-cli-builder",
+        "name": "rust-cli-builder",
+        "type": "skill",
+        "path": "skills/development/skill-rust-cli-builder.md"
+      },
+      {
         "id": "agent-rust-engineer",
         "name": "rust-engineer",
         "type": "agent",
@@ -36166,6 +38818,12 @@
         "name": "scroll-experience",
         "type": "skill",
         "path": "skills/creative-design/skill-scroll-experience.md"
+      },
+      {
+        "id": "agent-sdd-spec-writer",
+        "name": "sdd-spec-writer",
+        "type": "agent",
+        "path": "agents/development-team/agent-sdd-spec-writer.md"
       },
       {
         "id": "agent-se-gitops-ci-specialist",
@@ -36612,6 +39270,12 @@
         "path": "agents/development-tools/agent-test-automator.md"
       },
       {
+        "id": "skill-test-detect",
+        "name": "test-detect",
+        "type": "skill",
+        "path": "skills/development/skill-test-detect.md"
+      },
+      {
         "id": "skill-test-driven-development",
         "name": "test-driven-development",
         "type": "skill",
@@ -36838,6 +39502,12 @@
         "name": "writing-skills",
         "type": "skill",
         "path": "skills/development/skill-writing-skills.md"
+      },
+      {
+        "id": "skill-x-twitter-scraper",
+        "name": "x-twitter-scraper",
+        "type": "skill",
+        "path": "skills/marketing/skill-x-twitter-scraper.md"
       },
       {
         "id": "skill-xlsx",
@@ -37862,6 +40532,12 @@
         "path": "skills/ai-research/skill-agent-memory-systems.md"
       },
       {
+        "id": "skill-agirails-agent-payments",
+        "name": "agirails-agent-payments",
+        "type": "skill",
+        "path": "skills/development/skill-agirails-agent-payments.md"
+      },
+      {
         "id": "agent-ai-engineer",
         "name": "ai-engineer",
         "type": "agent",
@@ -38136,6 +40812,12 @@
         "name": "code-review-checklist",
         "type": "skill",
         "path": "skills/development/skill-code-review-checklist.md"
+      },
+      {
+        "id": "agent-codebase-explorer",
+        "name": "codebase-explorer",
+        "type": "agent",
+        "path": "agents/development-tools/agent-codebase-explorer.md"
       },
       {
         "id": "agent-codebase-pattern-finder",
@@ -38646,6 +41328,12 @@
         "name": "github-workflow-automation",
         "type": "skill",
         "path": "skills/development/skill-github-workflow-automation.md"
+      },
+      {
+        "id": "skill-gmod-addon-maker",
+        "name": "gmod-addon-maker",
+        "type": "skill",
+        "path": "skills/gmod-addon-maker/skill-gmod-addon-maker.md"
       },
       {
         "id": "agent-go-mcp-expert",
@@ -39236,6 +41924,12 @@
         "path": "agents/devops-infrastructure/agent-platform-engineer.md"
       },
       {
+        "id": "skill-playwright-e2e-builder",
+        "name": "playwright-e2e-builder",
+        "type": "skill",
+        "path": "skills/development/skill-playwright-e2e-builder.md"
+      },
+      {
         "id": "skill-playwright-skill",
         "name": "playwright-skill",
         "type": "skill",
@@ -39540,6 +42234,12 @@
         "name": "ruby-mcp-expert",
         "type": "agent",
         "path": "agents/programming-languages/agent-ruby-mcp-expert.md"
+      },
+      {
+        "id": "skill-rust-cli-builder",
+        "name": "rust-cli-builder",
+        "type": "skill",
+        "path": "skills/development/skill-rust-cli-builder.md"
       },
       {
         "id": "agent-rust-engineer",
@@ -39914,6 +42614,12 @@
         "path": "agents/development-tools/agent-test-automator.md"
       },
       {
+        "id": "skill-test-detect",
+        "name": "test-detect",
+        "type": "skill",
+        "path": "skills/development/skill-test-detect.md"
+      },
+      {
         "id": "skill-test-driven-development",
         "name": "test-driven-development",
         "type": "skill",
@@ -40282,6 +42988,12 @@
         "path": "commands/performance/command-optimize-build-command.md"
       },
       {
+        "id": "skill-pocketbase-hooks",
+        "name": "PocketBase Hooks",
+        "type": "skill",
+        "path": "skills/pocketbase/skill-pocketbase-hooks.md"
+      },
+      {
         "id": "agent-readme",
         "name": "README",
         "type": "agent",
@@ -40330,10 +43042,22 @@
         "path": "agents/expert-advisors/agent-agent-installer.md"
       },
       {
+        "id": "skill-agent-management",
+        "name": "agent-management",
+        "type": "skill",
+        "path": "skills/ai-maestro/skill-agent-management.md"
+      },
+      {
         "id": "skill-agent-md-refactor",
         "name": "agent-md-refactor",
         "type": "skill",
         "path": "skills/development/skill-agent-md-refactor.md"
+      },
+      {
+        "id": "skill-agirails-agent-payments",
+        "name": "agirails-agent-payments",
+        "type": "skill",
+        "path": "skills/development/skill-agirails-agent-payments.md"
       },
       {
         "id": "agent-angular-architect",
@@ -40426,6 +43150,12 @@
         "path": "skills/ai-research/skill-chroma.md"
       },
       {
+        "id": "skill-claude-api",
+        "name": "claude-api",
+        "type": "skill",
+        "path": "skills/development/skill-claude-api.md"
+      },
+      {
         "id": "skill-clean-code",
         "name": "clean-code",
         "type": "skill",
@@ -40462,6 +43192,12 @@
         "path": "agents/data-ai/agent-code-tour.md"
       },
       {
+        "id": "agent-codebase-explorer",
+        "name": "codebase-explorer",
+        "type": "agent",
+        "path": "agents/development-tools/agent-codebase-explorer.md"
+      },
+      {
         "id": "skill-coding-standards",
         "name": "coding-standards",
         "type": "skill",
@@ -40478,6 +43214,12 @@
         "name": "design-system-starter",
         "type": "skill",
         "path": "skills/development/skill-design-system-starter.md"
+      },
+      {
+        "id": "skill-design-to-code",
+        "name": "design-to-code",
+        "type": "skill",
+        "path": "skills/design-to-code/skill-design-to-code.md"
       },
       {
         "id": "skill-developer-growth-analysis",
@@ -40504,6 +43246,12 @@
         "path": "skills/development/skill-dispatching-parallel-agents.md"
       },
       {
+        "id": "skill-docs-search",
+        "name": "docs-search",
+        "type": "skill",
+        "path": "skills/ai-maestro/skill-docs-search.md"
+      },
+      {
         "id": "skill-documentation-templates",
         "name": "documentation-templates",
         "type": "skill",
@@ -40520,12 +43268,6 @@
         "name": "docx",
         "type": "skill",
         "path": "skills/scientific/skill-docx.md"
-      },
-      {
-        "id": "skill-docx",
-        "name": "docx",
-        "type": "skill",
-        "path": "skills/document-processing/skill-docx.md"
       },
       {
         "id": "skill-evaluating-code-models",
@@ -40750,6 +43492,12 @@
         "path": "skills/ai-research/skill-perplexity.md"
       },
       {
+        "id": "skill-playwright-e2e-builder",
+        "name": "playwright-e2e-builder",
+        "type": "skill",
+        "path": "skills/development/skill-playwright-e2e-builder.md"
+      },
+      {
         "id": "agent-playwright-tester",
         "name": "playwright-tester",
         "type": "agent",
@@ -40820,6 +43568,12 @@
         "name": "react-ui-patterns",
         "type": "skill",
         "path": "skills/development/skill-react-ui-patterns.md"
+      },
+      {
+        "id": "agent-sdd-spec-writer",
+        "name": "sdd-spec-writer",
+        "type": "agent",
+        "path": "agents/development-team/agent-sdd-spec-writer.md"
       },
       {
         "id": "skill-security-review",
@@ -41130,6 +43884,18 @@
         "path": "skills/creative-design/skill-d3-viz.md"
       },
       {
+        "id": "skill-design-mirror",
+        "name": "design-mirror",
+        "type": "skill",
+        "path": "skills/web-data/skill-design-mirror.md"
+      },
+      {
+        "id": "skill-docs-search",
+        "name": "docs-search",
+        "type": "skill",
+        "path": "skills/ai-maestro/skill-docs-search.md"
+      },
+      {
         "id": "skill-feature-design-assistant",
         "name": "feature-design-assistant",
         "type": "skill",
@@ -41164,6 +43930,12 @@
         "name": "performance",
         "type": "skill",
         "path": "skills/development/skill-performance.md"
+      },
+      {
+        "id": "skill-playwright-e2e-builder",
+        "name": "playwright-e2e-builder",
+        "type": "skill",
+        "path": "skills/development/skill-playwright-e2e-builder.md"
       },
       {
         "id": "skill-plugin-forge",

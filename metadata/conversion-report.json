@@ -1,26 +1,26 @@
 {
-  "timestamp": "2026-02-13T23:31:37.421672",
-  "source_root": "../claude-code-templates/cli-tool/components",
-  "output_root": "../converted-templates",
+  "timestamp": "2026-03-16T18:26:27.127265",
+  "source_root": "claude-code-templates/cli-tool/components",
+  "output_root": "converted-templates",
   "statistics": {
-    "total": 1457,
-    "converted": 1371,
+    "total": 1608,
+    "converted": 1519,
     "skipped": 0,
-    "errors": 86,
+    "errors": 89,
     "by_type": {
-      "agent": 415,
-      "command": 228,
-      "skill": 664,
-      "mcp": 64
+      "agent": 418,
+      "command": 335,
+      "skill": 699,
+      "mcp": 67
     }
   },
   "tracking": {
-    "total_tracked": 1371,
+    "total_tracked": 2890,
     "by_type": {
-      "agent": 415,
-      "command": 228,
-      "skill": 664,
-      "mcp": 64
+      "agent": 833,
+      "command": 563,
+      "skill": 1363,
+      "mcp": 131
     },
     "history_entries": 1000
   }

@@ -28,11 +28,11 @@ capabilities: []
 token_estimate: 1120
 has_scripts: true
 languages:
-- yaml
-- javascript
 - html
 - java
+- yaml
 - python
+- javascript
 ---
 
 <!-- Converted from Claude Command Template -->

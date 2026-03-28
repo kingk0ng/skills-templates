@@ -22,8 +22,8 @@ capabilities: []
 token_estimate: 2317
 has_scripts: true
 languages:
-- bash
 - javascript
+- bash
 - text
 ---
 

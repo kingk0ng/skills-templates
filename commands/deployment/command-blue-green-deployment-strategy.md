@@ -26,10 +26,10 @@ capabilities: []
 token_estimate: 2873
 has_scripts: true
 languages:
-- bash
-- nginx
 - yaml
 - haproxy
+- bash
+- nginx
 ---
 
 <!-- Converted from Claude Command Template -->

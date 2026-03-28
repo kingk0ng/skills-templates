@@ -29,8 +29,8 @@ token_estimate: 1799
 has_scripts: true
 languages:
 - bash
-- text
 - markdown
+- text
 ---
 
 <!-- Converted from Claude Command Template -->

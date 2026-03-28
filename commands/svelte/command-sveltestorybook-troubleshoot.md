@@ -16,8 +16,8 @@ capabilities: []
 token_estimate: 647
 has_scripts: true
 languages:
-- bash
 - javascript
+- bash
 ---
 
 <!-- Converted from Claude Command Template -->

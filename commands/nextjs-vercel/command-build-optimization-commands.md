@@ -33,10 +33,10 @@ capabilities: []
 token_estimate: 1448
 has_scripts: true
 languages:
-- bash
-- javascript
 - json
 - typescript
+- bash
+- javascript
 ---
 
 <!-- Converted from Claude Command Template -->

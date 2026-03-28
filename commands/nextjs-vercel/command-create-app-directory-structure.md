@@ -24,10 +24,10 @@ capabilities: []
 token_estimate: 3231
 has_scripts: true
 languages:
-- bash
-- markdown
 - json
 - typescript
+- bash
+- markdown
 ---
 
 <!-- Converted from Claude Command Template -->

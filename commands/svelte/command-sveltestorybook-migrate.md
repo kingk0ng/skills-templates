@@ -16,8 +16,8 @@ capabilities: []
 token_estimate: 708
 has_scripts: true
 languages:
-- bash
 - javascript
+- bash
 - svelte
 ---
 
