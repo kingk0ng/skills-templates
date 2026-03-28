@@ -4,3 +4,5 @@
 .rag/query.sh
 .rag/README.md
 .rag/vectors.npz
+# Ignore Zone.Identifier files
+*.md:Zone.Identifier
